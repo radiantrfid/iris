@@ -9,7 +9,7 @@ import (
 	"time"
 
 	"github.com/radiantrfid/iris/"
-	"github.com/radiantrfid/iris//context"
+	"github.com/radiantrfid/iris/context"
 )
 
 type (

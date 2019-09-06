@@ -8,7 +8,7 @@ import (
 
 	"github.com/kataras/golog"
 
-	"github.com/radiantrfid/iris//context"
+	"github.com/radiantrfid/iris/context"
 	"github.com/radiantrfid/iris//core/errors"
 	"github.com/radiantrfid/iris//core/netutil"
 	"github.com/radiantrfid/iris//core/router/node"

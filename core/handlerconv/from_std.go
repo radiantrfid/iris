@@ -3,7 +3,7 @@ package handlerconv
 import (
 	"net/http"
 
-	"github.com/radiantrfid/iris//context"
+	"github.com/radiantrfid/iris/context"
 	"github.com/radiantrfid/iris//core/errors"
 )
 

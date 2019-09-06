@@ -5,7 +5,7 @@ import (
 	"time"
 
 	"github.com/radiantrfid/iris//cache/client"
-	"github.com/radiantrfid/iris//context"
+	"github.com/radiantrfid/iris/context"
 )
 
 // CacheControlHeaderValue is the header value of the

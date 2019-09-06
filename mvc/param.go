@@ -3,7 +3,7 @@ package mvc
 import (
 	"reflect"
 
-	"github.com/radiantrfid/iris//context"
+	"github.com/radiantrfid/iris/context"
 	"github.com/radiantrfid/iris//core/router/macro"
 	"github.com/radiantrfid/iris//core/router/macro/interpreter/ast"
 )

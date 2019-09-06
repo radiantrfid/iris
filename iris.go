@@ -13,7 +13,7 @@ import (
 	"github.com/kataras/golog"
 
 	// context for the handlers
-	"github.com/radiantrfid/iris//context"
+	"github.com/radiantrfid/iris/context"
 	// core packages, needed to build the application
 	"github.com/radiantrfid/iris//core/errors"
 	"github.com/radiantrfid/iris//core/host"

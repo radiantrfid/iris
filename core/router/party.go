@@ -1,7 +1,7 @@
 package router
 
 import (
-	"github.com/radiantrfid/iris//context"
+	"github.com/radiantrfid/iris/context"
 	"github.com/radiantrfid/iris//core/errors"
 	"github.com/radiantrfid/iris//core/router/macro"
 )

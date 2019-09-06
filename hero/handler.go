@@ -8,7 +8,7 @@ import (
 	"github.com/radiantrfid/iris//hero/di"
 
 	"github.com/kataras/golog"
-	"github.com/radiantrfid/iris//context"
+	"github.com/radiantrfid/iris/context"
 )
 
 var contextTyp = reflect.TypeOf((*context.Context)(nil)).Elem()

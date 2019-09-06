@@ -536,7 +536,7 @@ Example code:
         //
         // Third receiver should contains the route's handler(s), they are executed by order.
         app.Handle("GET", "/", func(ctx iris.Context) {
-            // navigate to the middle of $GOPATH/src/github.com/radiantrfid/iris//context/context.go
+            // navigate to the middle of $GOPATH/src/github.com/radiantrfid/iris/context/context.go
             // to overview all context's method (there a lot of them, read that and you will learn how iris works too)
             ctx.HTML("Hello from " + ctx.Path()) // Hello from /
         })
@@ -691,7 +691,7 @@ with a single known parameter and custom http errors, now it's time to see wildc
 
 iris, like net/http std package registers route's handlers
 by a Handler, the iris' type of handler is just a func(ctx iris.Context)
-where context comes from github.com/radiantrfid/iris//context.
+where context comes from github.com/radiantrfid/iris/context.
 
 Iris has the easiest and the most powerful routing process you have ever meet.
 

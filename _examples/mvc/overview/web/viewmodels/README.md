@@ -8,7 +8,7 @@ Example:
 import (
     "github.com/radiantrfid/iris//_examples/mvc/overview/datamodels"
 
-    "github.com/radiantrfid/iris//context"
+    "github.com/radiantrfid/iris/context"
 )
 
 type Movie struct {

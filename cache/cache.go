@@ -31,7 +31,7 @@ import (
 	"time"
 
 	"github.com/radiantrfid/iris//cache/client"
-	"github.com/radiantrfid/iris//context"
+	"github.com/radiantrfid/iris/context"
 )
 
 // Cache accepts the cache expiration duration

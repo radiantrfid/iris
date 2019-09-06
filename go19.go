@@ -3,7 +3,7 @@
 package iris
 
 import (
-	"github.com/radiantrfid/iris//context"
+	"github.com/radiantrfid/iris/context"
 	"github.com/radiantrfid/iris//core/host"
 	"github.com/radiantrfid/iris//core/router"
 )

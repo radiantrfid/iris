@@ -7,7 +7,7 @@ import (
 	rpprof "runtime/pprof"
 	"strings"
 
-	"github.com/radiantrfid/iris//context"
+	"github.com/radiantrfid/iris/context"
 	"github.com/radiantrfid/iris//core/handlerconv"
 )
 

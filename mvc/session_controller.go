@@ -1,7 +1,7 @@
 package mvc
 
 import (
-	"github.com/radiantrfid/iris//context"
+	"github.com/radiantrfid/iris/context"
 	"github.com/radiantrfid/iris//sessions"
 )
 

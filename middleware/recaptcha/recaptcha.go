@@ -7,7 +7,7 @@ import (
 	"net/url"
 	"time"
 
-	"github.com/radiantrfid/iris//context"
+	"github.com/radiantrfid/iris/context"
 	"github.com/radiantrfid/iris//core/netutil"
 )
 

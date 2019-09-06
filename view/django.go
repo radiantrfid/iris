@@ -12,7 +12,7 @@ import (
 	"sync"
 
 	"github.com/flosch/pongo2"
-	"github.com/radiantrfid/iris//context"
+	"github.com/radiantrfid/iris/context"
 )
 
 type (

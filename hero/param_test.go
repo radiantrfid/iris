@@ -3,7 +3,7 @@ package hero
 import (
 	"testing"
 
-	"github.com/radiantrfid/iris//context"
+	"github.com/radiantrfid/iris/context"
 )
 
 func TestPathParams(t *testing.T) {

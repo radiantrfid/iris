@@ -3,7 +3,7 @@ package websocket
 import (
 	"sync"
 
-	"github.com/radiantrfid/iris//context"
+	"github.com/radiantrfid/iris/context"
 
 	"github.com/gorilla/websocket"
 )

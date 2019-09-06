@@ -57,7 +57,7 @@ Therefore if you use [VS Code](https://code.visualstudio.com/) and you need thes
 ```go
 import (
     "github.com/radiantrfid/iris/"
-    "github.com/radiantrfid/iris//context" // <- HERE
+    "github.com/radiantrfid/iris/context" // <- HERE
 )
 ```
 
@@ -359,7 +359,7 @@ package main
 
 import (
     "github.com/radiantrfid/iris/"
-    "github.com/radiantrfid/iris//context"
+    "github.com/radiantrfid/iris/context"
 )
 
 func main() {

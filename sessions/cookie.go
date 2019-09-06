@@ -7,7 +7,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/radiantrfid/iris//context"
+	"github.com/radiantrfid/iris/context"
 )
 
 var (

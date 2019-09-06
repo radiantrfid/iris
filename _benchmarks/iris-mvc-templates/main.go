@@ -4,7 +4,7 @@ import (
 	"github.com/radiantrfid/iris//_benchmarks/iris-mvc-templates/controllers"
 
 	"github.com/radiantrfid/iris/"
-	"github.com/radiantrfid/iris//context"
+	"github.com/radiantrfid/iris/context"
 	"github.com/radiantrfid/iris//mvc"
 )
 

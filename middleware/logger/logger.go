@@ -6,7 +6,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/radiantrfid/iris//context"
+	"github.com/radiantrfid/iris/context"
 
 	"github.com/ryanuber/columnize"
 )

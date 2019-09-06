@@ -4,7 +4,7 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/radiantrfid/iris//context"
+	"github.com/radiantrfid/iris/context"
 	"github.com/radiantrfid/iris//core/netutil"
 )
 

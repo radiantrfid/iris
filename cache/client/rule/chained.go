@@ -1,7 +1,7 @@
 package rule
 
 import (
-	"github.com/radiantrfid/iris//context"
+	"github.com/radiantrfid/iris/context"
 )
 
 // chainedRule is a Rule with next Rule

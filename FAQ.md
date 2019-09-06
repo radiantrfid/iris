@@ -44,7 +44,7 @@ Want to help and join to the greatest community? Describe your skills and push y
 
 | build error | reason | solution |
 | -----------|--------|--------|
-| `undefined iris.Context` | caused of using the **optional type alias** `iris.Context` instead of the `context.Context` when building with Go 1.8 | import the original package `github.com/radiantrfid/iris//context` and declare as `func(context.Context){})` **or** download and install the [latest go version](https://golang.org/dl) _recommended_ |
+| `undefined iris.Context` | caused of using the **optional type alias** `iris.Context` instead of the `context.Context` when building with Go 1.8 | import the original package `github.com/radiantrfid/iris/context` and declare as `func(context.Context){})` **or** download and install the [latest go version](https://golang.org/dl) _recommended_ |
 
 Type alias is a new feature, introduced at Go version 1.9, so if you want to use Iris' type aliases you have to build using the latest Go version. Nothing really changes for your application if you use type alias or not, Iris' type aliases helps you to omit import statements -- to reduce lines of code, nothing more.
 
@@ -60,7 +60,7 @@ Available type aliases;
 
 | Go 1.8 | Go 1.8 usage | Go 1.9 usage (optionally) |
 | -----------|--------|--------|
-| `import "github.com/radiantrfid/iris//context"` | `func(context.Context) {}`, `context.Handler`, `context.Map` |  `func(iris.Context) {}`, `iris.Handler`,  `iris.Map` |
+| `import "github.com/radiantrfid/iris/context"` | `func(context.Context) {}`, `context.Handler`, `context.Map` |  `func(iris.Context) {}`, `iris.Handler`,  `iris.Map` |
 | `import "github.com/radiantrfid/iris//mvc"` | `type MyController struct { mvc.Controller }` , `mvc.SessionController` | `type MyController struct { iris.Controller }`, `iris.SessionController` |
 | `import "github.com/radiantrfid/iris//core/router"` | `app.PartyFunc("/users", func(p router.Party) {})` |  `app.PartyFunc("/users", func(p iris.Party) {})` |
 | `import "github.com/radiantrfid/iris//core/host"` | `app.ConfigureHost(func(s *host.Supervisor) {})` | `app.ConfigureHost(func(s *iris.Supervisor) {})` |

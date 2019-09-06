@@ -7,7 +7,7 @@ import (
 	"strings"
 
 	"github.com/iris-contrib/i18n"
-	"github.com/radiantrfid/iris//context"
+	"github.com/radiantrfid/iris/context"
 )
 
 // test file: ../../_examples/miscellaneous/i18n/main_test.go

@@ -18,7 +18,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/radiantrfid/iris//context"
+	"github.com/radiantrfid/iris/context"
 )
 
 // StaticEmbeddedHandler returns a Handler which can serve embedded files

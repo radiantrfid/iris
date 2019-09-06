@@ -1,7 +1,7 @@
 package mvc
 
 import (
-	"github.com/radiantrfid/iris//context"
+	"github.com/radiantrfid/iris/context"
 	"github.com/radiantrfid/iris//core/router"
 	"github.com/radiantrfid/iris//hero"
 	"github.com/radiantrfid/iris//hero/di"

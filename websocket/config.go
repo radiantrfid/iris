@@ -4,7 +4,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/radiantrfid/iris//context"
+	"github.com/radiantrfid/iris/context"
 )
 
 const (

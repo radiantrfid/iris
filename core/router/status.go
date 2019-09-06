@@ -4,7 +4,7 @@ import (
 	"net/http" // just for status codes
 	"sync"
 
-	"github.com/radiantrfid/iris//context"
+	"github.com/radiantrfid/iris/context"
 )
 
 func statusCodeSuccessful(statusCode int) bool {

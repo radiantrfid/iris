@@ -9,7 +9,7 @@ import (
 	"reflect"
 
 	"github.com/radiantrfid/iris/"
-	"github.com/radiantrfid/iris//context"
+	"github.com/radiantrfid/iris/context"
 )
 
 // Create your own custom Context, put any fields you wanna need.

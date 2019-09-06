@@ -10,7 +10,7 @@ import (
 	"github.com/BurntSushi/toml"
 	"gopkg.in/yaml.v2"
 
-	"github.com/radiantrfid/iris//context"
+	"github.com/radiantrfid/iris/context"
 	"github.com/radiantrfid/iris//core/errors"
 )
 

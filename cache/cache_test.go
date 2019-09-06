@@ -11,7 +11,7 @@ import (
 	"github.com/radiantrfid/iris//cache/client/rule"
 
 	"github.com/radiantrfid/iris/"
-	"github.com/radiantrfid/iris//context"
+	"github.com/radiantrfid/iris/context"
 	"github.com/radiantrfid/iris//core/errors"
 
 	"github.com/iris-contrib/httpexpect"

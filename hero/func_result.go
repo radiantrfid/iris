@@ -4,7 +4,7 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/radiantrfid/iris//context"
+	"github.com/radiantrfid/iris/context"
 	"github.com/radiantrfid/iris//hero/di"
 
 	"github.com/fatih/structs"
