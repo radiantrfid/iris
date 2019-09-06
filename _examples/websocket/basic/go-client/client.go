@@ -9,7 +9,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/kataras/iris/websocket"
+	"github.com/radiantrfid/iris/websocket"
 )
 
 const (

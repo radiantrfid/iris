@@ -1,10 +1,10 @@
 package main
 
 import (
-	"github.com/kataras/iris/_benchmarks/iris-mvc/controllers"
+	"github.com/radiantrfid/iris/_benchmarks/iris-mvc/controllers"
 
-	"github.com/kataras/iris"
-	"github.com/kataras/iris/mvc"
+	"github.com/radiantrfid/iris"
+	"github.com/radiantrfid/iris/mvc"
 )
 
 func main() {

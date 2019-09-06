@@ -4,7 +4,7 @@ os:
   - osx
 go:
   - 1.12.x
-go_import_path: github.com/kataras/iris
+go_import_path: github.com/radiantrfid/iris
 env:
  global:
    - GO111MODULE=on

@@ -3,7 +3,7 @@ package mvc
 import (
 	"reflect"
 
-	"github.com/kataras/iris/hero"
+	"github.com/radiantrfid/iris/hero"
 )
 
 var (

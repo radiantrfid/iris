@@ -2,7 +2,7 @@
 package main
 
 import (
-	"github.com/kataras/iris"
+	"github.com/radiantrfid/iris"
 )
 
 type Visitor struct {
@@ -27,7 +27,7 @@ func main() {
 	app.Post("/form_action", func(ctx iris.Context) {
 		visitor := Visitor{}
 		err := ctx.ReadForm(&visitor)
-		if err != nil && !iris.IsErrPath(err) /* see: https://github.com/kataras/iris/issues/1157 */ {
+		if err != nil && !iris.IsErrPath(err) /* see: https://github.com/radiantrfid/iris/issues/1157 */ {
 			ctx.StatusCode(iris.StatusInternalServerError)
 			ctx.WriteString(err.Error())
 		}

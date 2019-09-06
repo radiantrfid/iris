@@ -8,7 +8,7 @@
 package main
 
 import (
-	"github.com/kataras/iris"
+	"github.com/radiantrfid/iris"
 
 	"github.com/iris-contrib/middleware/jwt"
 )

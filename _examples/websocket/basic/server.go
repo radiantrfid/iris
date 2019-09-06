@@ -3,8 +3,8 @@ package main
 import (
 	"log"
 
-	"github.com/kataras/iris"
-	"github.com/kataras/iris/websocket"
+	"github.com/radiantrfid/iris"
+	"github.com/radiantrfid/iris/websocket"
 
 	// Used when "enableJWT" constant is true:
 	"github.com/iris-contrib/middleware/jwt"

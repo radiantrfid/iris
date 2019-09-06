@@ -34,7 +34,7 @@ Easy to learn for new gophers and advanced features for experienced, it goes as 
 
 Source code and other details for the project are available at GitHub:
 
-   https://github.com/kataras/iris
+   https://github.com/radiantrfid/iris
 
 Current Version
 
@@ -44,19 +44,19 @@ Installation
 
 The only requirement is the Go Programming Language, at least version 1.12.
 
-    $ go get github.com/kataras/iris@master
+    $ go get github.com/radiantrfid/iris@master
 
 Wiki:
 
-    https://github.com/kataras/iris/wiki
+    https://github.com/radiantrfid/iris/wiki
 
 Examples:
 
-    https://github.com/kataras/iris/tree/master/_examples
+    https://github.com/radiantrfid/iris/tree/master/_examples
 
 Middleware:
 
-    https://github.com/kataras/iris/tree/master/middleware
+    https://github.com/radiantrfid/iris/tree/master/middleware
     https://github.com/iris-contrib/middleware
 
 Home Page:

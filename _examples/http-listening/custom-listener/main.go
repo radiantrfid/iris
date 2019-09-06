@@ -3,7 +3,7 @@ package main
 import (
 	"net"
 
-	"github.com/kataras/iris"
+	"github.com/radiantrfid/iris"
 )
 
 func main() {

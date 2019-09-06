@@ -4,8 +4,8 @@ import (
 	"net/http"
 	"sync"
 
-	"github.com/kataras/iris/context"
-	"github.com/kataras/iris/core/errors"
+	"github.com/radiantrfid/iris/context"
+	"github.com/radiantrfid/iris/core/errors"
 )
 
 // Router is the "director".

@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/kataras/iris"
-	"github.com/kataras/iris/middleware/i18n"
+	"github.com/radiantrfid/iris"
+	"github.com/radiantrfid/iris/middleware/i18n"
 )
 
 func newApp() *iris.Application {

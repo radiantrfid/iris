@@ -1,9 +1,9 @@
 package router
 
 import (
-	"github.com/kataras/iris/context"
-	"github.com/kataras/iris/core/errors"
-	"github.com/kataras/iris/macro"
+	"github.com/radiantrfid/iris/context"
+	"github.com/radiantrfid/iris/core/errors"
+	"github.com/radiantrfid/iris/macro"
 )
 
 // Party is just a group joiner of routes which have the same prefix and share same middleware(s) also.
@@ -21,7 +21,7 @@ type Party interface {
 	// Macros returns the macro collection that is responsible
 	// to register custom macros with their own parameter types and their macro functions for all routes.
 	//
-	// Learn more at:  https://github.com/kataras/iris/tree/master/_examples/routing/dynamic-path
+	// Learn more at:  https://github.com/radiantrfid/iris/tree/master/_examples/routing/dynamic-path
 	Macros() *macro.Macros
 
 	// Party groups routes which may have the same prefix and share same handlers,
@@ -96,7 +96,7 @@ type Party interface {
 	//
 	// Returns this Party.
 	//
-	// Example: https://github.com/kataras/iris/tree/master/_examples/mvc/middleware/without-ctx-next
+	// Example: https://github.com/radiantrfid/iris/tree/master/_examples/mvc/middleware/without-ctx-next
 	SetExecutionRules(executionRules ExecutionRules) Party
 	// Handle registers a route to the server's router.
 	// if empty method is passed then handler(s) are being registered to all methods, same as .Any.
@@ -133,24 +133,24 @@ type Party interface {
 	//
 	// Returns the GET *Route.
 	//
-	// Examples can be found at: https://github.com/kataras/iris/tree/master/_examples/file-server
+	// Examples can be found at: https://github.com/radiantrfid/iris/tree/master/_examples/file-server
 	HandleDir(requestPath, directory string, opts ...DirOptions) *Route
 	// StaticWeb is DEPRECATED. Use HandleDir(requestPath, directory) instead.
 	StaticWeb(requestPath string, directory string) *Route
 	// StaticHandler is DEPRECATED.
 	// Use iris.FileServer(directory, iris.DirOptions{ShowList: true, Gzip: true}) instead.
 	//
-	// Example https://github.com/kataras/iris/tree/master/_examples/file-server/basic
+	// Example https://github.com/radiantrfid/iris/tree/master/_examples/file-server/basic
 	StaticHandler(directory string, showList bool, gzip bool) context.Handler
 	// StaticEmbedded is DEPRECATED.
 	// Use HandleDir(requestPath, directory, iris.DirOptions{Asset: Asset, AssetInfo: AssetInfo, AssetNames: AssetNames}) instead.
 	//
-	// Example: https://github.com/kataras/iris/tree/master/_examples/file-server/embedding-files-into-app
+	// Example: https://github.com/radiantrfid/iris/tree/master/_examples/file-server/embedding-files-into-app
 	StaticEmbedded(requestPath string, directory string, assetFn func(name string) ([]byte, error), namesFn func() []string) *Route
 	// StaticEmbeddedGzip is DEPRECATED.
 	// Use HandleDir(requestPath, directory, iris.DirOptions{Gzip: true, Asset: Asset, AssetInfo: AssetInfo, AssetNames: AssetNames}) instead.
 	//
-	// Example: https://github.com/kataras/iris/tree/master/_examples/file-server/embedding-gziped-files-into-app
+	// Example: https://github.com/radiantrfid/iris/tree/master/_examples/file-server/embedding-gziped-files-into-app
 	StaticEmbeddedGzip(requestPath string, directory string, assetFn func(name string) ([]byte, error), namesFn func() []string) *Route
 
 	// None registers an "offline" route
@@ -231,6 +231,6 @@ type Party interface {
 	// 		ctx.View("page1.html")
 	// 	})
 	//
-	// Examples: https://github.com/kataras/iris/tree/master/_examples/view
+	// Examples: https://github.com/radiantrfid/iris/tree/master/_examples/view
 	Layout(tmplLayoutFile string) Party
 }

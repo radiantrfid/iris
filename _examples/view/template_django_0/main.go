@@ -3,7 +3,7 @@ package main
 import (
 	"time"
 
-	"github.com/kataras/iris"
+	"github.com/radiantrfid/iris"
 
 	// optionally, registers filters like `timesince`.
 	_ "github.com/flosch/pongo2-addons"

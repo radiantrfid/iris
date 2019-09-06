@@ -6,7 +6,7 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/kataras/iris/context"
+	"github.com/radiantrfid/iris/context"
 )
 
 /*
@@ -59,7 +59,7 @@ Use .HandleDir("%s", "%s") instead.`, file, line, requestPath, directory)
 // StaticHandler is DEPRECATED.
 // Use iris.FileServer(directory, iris.DirOptions{ShowList: true, Gzip: true}) instead.
 //
-// Example https://github.com/kataras/iris/tree/master/_examples/file-server/basic
+// Example https://github.com/radiantrfid/iris/tree/master/_examples/file-server/basic
 func (api *APIBuilder) StaticHandler(directory string, showList bool, gzip bool) context.Handler {
 	file, line := getCaller()
 	api.reporter.Add(`StaticHandler is DEPRECATED and it will be removed eventually.
@@ -71,7 +71,7 @@ Use iris.FileServer("%s", iris.DirOptions{ShowList: %v, Gzip: %v}) instead.`, fi
 // StaticEmbedded is DEPRECATED.
 // Use HandleDir(requestPath, directory, iris.DirOptions{Asset: Asset, AssetInfo: AssetInfo, AssetNames: AssetNames}) instead.
 //
-// Example: https://github.com/kataras/iris/tree/master/_examples/file-server/embedding-files-into-app
+// Example: https://github.com/radiantrfid/iris/tree/master/_examples/file-server/embedding-files-into-app
 func (api *APIBuilder) StaticEmbedded(requestPath string, directory string, assetFn func(name string) ([]byte, error), namesFn func() []string) *Route {
 	file, line := getCaller()
 	api.reporter.Add(`StaticEmbedded is DEPRECATED and it will be removed eventually.
@@ -85,7 +85,7 @@ Use .HandleDir("%s", "%s", iris.DirOptions{Asset: Asset, AssetInfo: AssetInfo, A
 // StaticEmbeddedGzip is DEPRECATED.
 // Use HandleDir(requestPath, directory, iris.DirOptions{Gzip: true, Asset: Asset, AssetInfo: AssetInfo, AssetNames: AssetNames}) instead.
 //
-// Example: https://github.com/kataras/iris/tree/master/_examples/file-server/embedding-gziped-files-into-app
+// Example: https://github.com/radiantrfid/iris/tree/master/_examples/file-server/embedding-gziped-files-into-app
 func (api *APIBuilder) StaticEmbeddedGzip(requestPath string, directory string, assetFn func(name string) ([]byte, error), namesFn func() []string) *Route {
 	file, line := getCaller()
 	api.reporter.Add(`StaticEmbeddedGzip is DEPRECATED and it will be removed eventually.

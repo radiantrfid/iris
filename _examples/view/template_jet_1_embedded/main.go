@@ -8,7 +8,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/kataras/iris"
+	"github.com/radiantrfid/iris"
 )
 
 func main() {

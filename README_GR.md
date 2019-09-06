@@ -1,6 +1,6 @@
 # Iris <a href="README.md"> <img width="20px" src="https://iris-go.com/images/flag-unitedkingdom.svg?v=10" /></a> <a href="README_ZH.md"><img width="20px" src="https://iris-go.com/images/flag-china.svg?v=10" /></a> <a href="README_ES.md"><img width="20px" src="https://iris-go.com/images/flag-spain.png" /></a>
 
-[![build status](https://img.shields.io/travis/kataras/iris/master.svg?style=for-the-badge)](https://travis-ci.org/kataras/iris) [![report card](https://img.shields.io/badge/report%20card-a%2B-ff3333.svg?style=for-the-badge)](https://goreportcard.com/report/github.com/kataras/iris)<!--[![godocs](https://img.shields.io/badge/go-%20docs-488AC7.svg?style=for-the-badge)](https://godoc.org/github.com/kataras/iris)--> [![view examples](https://img.shields.io/badge/learn%20by-examples-0077b3.svg?style=for-the-badge)](https://github.com/kataras/iris/tree/master/_examples) [![chat](https://img.shields.io/gitter/room/iris_go/community.svg?color=blue&logo=gitter&style=for-the-badge)](https://gitter.im/iris_go/community) [![release](https://img.shields.io/badge/release%20-v11.2-0077b3.svg?style=for-the-badge)](https://github.com/kataras/iris/releases)
+[![build status](https://img.shields.io/travis/kataras/iris/master.svg?style=for-the-badge)](https://travis-ci.org/kataras/iris) [![report card](https://img.shields.io/badge/report%20card-a%2B-ff3333.svg?style=for-the-badge)](https://goreportcard.com/report/github.com/radiantrfid/iris)<!--[![godocs](https://img.shields.io/badge/go-%20docs-488AC7.svg?style=for-the-badge)](https://godoc.org/github.com/radiantrfid/iris)--> [![view examples](https://img.shields.io/badge/learn%20by-examples-0077b3.svg?style=for-the-badge)](https://github.com/radiantrfid/iris/tree/master/_examples) [![chat](https://img.shields.io/gitter/room/iris_go/community.svg?color=blue&logo=gitter&style=for-the-badge)](https://gitter.im/iris_go/community) [![release](https://img.shields.io/badge/release%20-v11.2-0077b3.svg?style=for-the-badge)](https://github.com/radiantrfid/iris/releases)
 
 Το Iris είναι ένα γρήγορο, απλό αλλά και πλήρως λειτουργικό και πολύ αποδοτικό web framework για τη Go γλώσσα προγραμματισμού. Παρέχει ένα εκφραστικό και εύχρηστο υπόβαθρο για την επόμενη ιστοσελίδα σας.
 
@@ -21,7 +21,7 @@ $ cat example.go
 ```go
 package main
 
-import "github.com/kataras/iris"
+import "github.com/radiantrfid/iris"
 
 func main() {
     app := iris.Default()
@@ -47,9 +47,9 @@ $ go run example.go
 
 </details>
 
-Το Iris περιέχει εκτενείς και λεπτομερείς **[wiki](https://github.com/kataras/iris/wiki)** καθιστώντας το εύκολο στην εκμάθηση.
+Το Iris περιέχει εκτενείς και λεπτομερείς **[wiki](https://github.com/radiantrfid/iris/wiki)** καθιστώντας το εύκολο στην εκμάθηση.
 
-Για λεπτομερέστερη τεχνική τεκμηρίωση μπορείτε να κατευθυνθείτε προς τα [godocs](https://godoc.org/github.com/kataras/iris) μας. Και για εκτελέσιμο κώδικα μπορείτε πάντα να επισκέπτεστε τα [παραδείγματα](_examples/).
+Για λεπτομερέστερη τεχνική τεκμηρίωση μπορείτε να κατευθυνθείτε προς τα [godocs](https://godoc.org/github.com/radiantrfid/iris) μας. Και για εκτελέσιμο κώδικα μπορείτε πάντα να επισκέπτεστε τα [παραδείγματα](_examples/).
 
 ### Σας αρέσει να διαβάζετε ενώ ταξιδεύετε;
 
@@ -61,7 +61,7 @@ $ go run example.go
 
 Θα θέλαμε να δούμε τη συμβολή σας στο Iris Web Framework! Για περισσότερες πληροφορίες σχετικά με το πως μπορείτε να συμβάλετε, δείτε το [CONTRIBUTING.md](CONTRIBUTING.md) αρχείο.
 
-[Κατάλογος όλων των συνεισφορών](https://github.com/kataras/iris/graphs/contributors).
+[Κατάλογος όλων των συνεισφορών](https://github.com/radiantrfid/iris/graphs/contributors).
 
 ## Αδυναμίες Ασφάλειας
 

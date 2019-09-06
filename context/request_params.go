@@ -6,7 +6,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/kataras/iris/core/memstore"
+	"github.com/radiantrfid/iris/core/memstore"
 )
 
 // RequestParams is a key string - value string storage which
@@ -100,7 +100,7 @@ func (r RequestParams) GetIntUnslashed(key string) (int, bool) {
 //     }
 // }
 //
-// Read https://github.com/kataras/iris/tree/master/_examples/routing/macros for more details.
+// Read https://github.com/radiantrfid/iris/tree/master/_examples/routing/macros for more details.
 // Checks for total available request parameters length
 // and parameter index based on the hero/mvc function added
 // in order to support the MVC.HandleMany("GET", "/path/{ps}/{pssecond} /path/{ps}")

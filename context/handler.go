@@ -46,9 +46,9 @@ func HandlerFileLine(h Handler) (file string, line int) {
 func MainHandlerName(handlers Handlers) (name string) {
 	for i := 0; i < len(handlers); i++ {
 		name = HandlerName(handlers[i])
-		if !strings.HasPrefix(name, "github.com/kataras/iris") ||
-			strings.HasPrefix(name, "github.com/kataras/iris/core/router.StripPrefix") ||
-			strings.HasPrefix(name, "github.com/kataras/iris/core/router.FileServer") {
+		if !strings.HasPrefix(name, "github.com/radiantrfid/iris") ||
+			strings.HasPrefix(name, "github.com/radiantrfid/iris/core/router.StripPrefix") ||
+			strings.HasPrefix(name, "github.com/radiantrfid/iris/core/router.FileServer") {
 			break
 		}
 	}

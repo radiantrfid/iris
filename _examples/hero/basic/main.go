@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/kataras/iris"
-	"github.com/kataras/iris/hero"
+	"github.com/radiantrfid/iris"
+	"github.com/radiantrfid/iris/hero"
 )
 
 func main() {

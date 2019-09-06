@@ -3,8 +3,8 @@ package handlerconv
 import (
 	"net/http"
 
-	"github.com/kataras/iris/context"
-	"github.com/kataras/iris/core/errors"
+	"github.com/radiantrfid/iris/context"
+	"github.com/radiantrfid/iris/core/errors"
 )
 
 var errHandler = errors.New(`

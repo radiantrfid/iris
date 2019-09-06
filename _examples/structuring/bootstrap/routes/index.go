@@ -1,7 +1,7 @@
 package routes
 
 import (
-	"github.com/kataras/iris"
+	"github.com/radiantrfid/iris"
 )
 
 // GetIndexHandler handles the GET: /

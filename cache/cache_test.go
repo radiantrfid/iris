@@ -6,16 +6,16 @@ import (
 	"testing"
 	"time"
 
-	"github.com/kataras/iris/cache"
-	"github.com/kataras/iris/cache/client"
-	"github.com/kataras/iris/cache/client/rule"
+	"github.com/radiantrfid/iris/cache"
+	"github.com/radiantrfid/iris/cache/client"
+	"github.com/radiantrfid/iris/cache/client/rule"
 
-	"github.com/kataras/iris"
-	"github.com/kataras/iris/context"
-	"github.com/kataras/iris/core/errors"
+	"github.com/radiantrfid/iris"
+	"github.com/radiantrfid/iris/context"
+	"github.com/radiantrfid/iris/core/errors"
 
 	"github.com/gavv/httpexpect"
-	"github.com/kataras/iris/httptest"
+	"github.com/radiantrfid/iris/httptest"
 )
 
 var (

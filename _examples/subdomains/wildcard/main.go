@@ -4,7 +4,7 @@
 package main
 
 import (
-	"github.com/kataras/iris"
+	"github.com/radiantrfid/iris"
 )
 
 // register a dynamic-wildcard subdomain to your server machine(dns/...) first, check ./hosts if you use windows.

@@ -1,4 +1,4 @@
-module github.com/kataras/iris
+module github.com/radiantrfid/iris
 
 go 1.12
 

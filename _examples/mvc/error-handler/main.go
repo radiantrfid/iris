@@ -3,9 +3,9 @@ package main
 import (
 	"fmt"
 
-	"github.com/kataras/iris"
+	"github.com/radiantrfid/iris"
 
-	"github.com/kataras/iris/mvc"
+	"github.com/radiantrfid/iris/mvc"
 )
 
 func main() {

@@ -6,10 +6,10 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/kataras/iris"
-	"github.com/kataras/iris/context"
-	"github.com/kataras/iris/core/handlerconv"
-	"github.com/kataras/iris/httptest"
+	"github.com/radiantrfid/iris"
+	"github.com/radiantrfid/iris/context"
+	"github.com/radiantrfid/iris/core/handlerconv"
+	"github.com/radiantrfid/iris/httptest"
 )
 
 func TestFromStd(t *testing.T) {

@@ -7,10 +7,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/kataras/iris/context"
-	"github.com/kataras/iris/core/errors"
-	"github.com/kataras/iris/macro"
-	macroHandler "github.com/kataras/iris/macro/handler"
+	"github.com/radiantrfid/iris/context"
+	"github.com/radiantrfid/iris/core/errors"
+	"github.com/radiantrfid/iris/macro"
+	macroHandler "github.com/radiantrfid/iris/macro/handler"
 )
 
 // MethodNone is a Virtual method
@@ -270,7 +270,7 @@ func (api *APIBuilder) AllowMethods(methods ...string) Party {
 //
 // Returns this Party.
 //
-// Example: https://github.com/kataras/iris/tree/master/_examples/mvc/middleware/without-ctx-next
+// Example: https://github.com/radiantrfid/iris/tree/master/_examples/mvc/middleware/without-ctx-next
 func (api *APIBuilder) SetExecutionRules(executionRules ExecutionRules) Party {
 	api.handlerExecutionRules = executionRules
 	return api
@@ -419,7 +419,7 @@ func (api *APIBuilder) HandleMany(methodOrMulti string, relativePathorMulti stri
 //
 // Returns the GET *Route.
 //
-// Examples can be found at: https://github.com/kataras/iris/tree/master/_examples/file-server
+// Examples can be found at: https://github.com/radiantrfid/iris/tree/master/_examples/file-server
 func (api *APIBuilder) HandleDir(requestPath, directory string, opts ...DirOptions) (getRoute *Route) {
 	options := getDirOptions(opts...)
 
@@ -572,7 +572,7 @@ func (api *APIBuilder) WildcardSubdomain(middleware ...context.Handler) Party {
 // Macros returns the macro collection that is responsible
 // to register custom macros with their own parameter types and their macro functions for all routes.
 //
-// Learn more at:  https://github.com/kataras/iris/tree/master/_examples/routing/dynamic-path
+// Learn more at:  https://github.com/radiantrfid/iris/tree/master/_examples/routing/dynamic-path
 func (api *APIBuilder) Macros() *macro.Macros {
 	return api.macros
 }
@@ -922,7 +922,7 @@ func (api *APIBuilder) FireErrorCode(ctx context.Context) {
 // 		ctx.View("page1.html")
 // 	})
 //
-// Examples: https://github.com/kataras/iris/tree/master/_examples/view
+// Examples: https://github.com/radiantrfid/iris/tree/master/_examples/view
 func (api *APIBuilder) Layout(tmplLayoutFile string) Party {
 	api.Use(func(ctx context.Context) {
 		ctx.ViewLayout(tmplLayoutFile)

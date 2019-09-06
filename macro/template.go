@@ -3,9 +3,9 @@ package macro
 import (
 	"reflect"
 
-	"github.com/kataras/iris/core/memstore"
-	"github.com/kataras/iris/macro/interpreter/ast"
-	"github.com/kataras/iris/macro/interpreter/parser"
+	"github.com/radiantrfid/iris/core/memstore"
+	"github.com/radiantrfid/iris/macro/interpreter/ast"
+	"github.com/radiantrfid/iris/macro/interpreter/parser"
 )
 
 // Template contains a route's path full parsed template.

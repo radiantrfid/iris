@@ -6,9 +6,9 @@ package main
 // $ go run main.go
 
 import (
-	"github.com/kataras/iris"
+	"github.com/radiantrfid/iris"
 
-	"github.com/kataras/iris/sessions"
+	"github.com/radiantrfid/iris/sessions"
 
 	"github.com/gorilla/securecookie"
 )

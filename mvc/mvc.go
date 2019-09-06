@@ -4,11 +4,11 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/kataras/iris/context"
-	"github.com/kataras/iris/core/router"
-	"github.com/kataras/iris/hero"
-	"github.com/kataras/iris/hero/di"
-	"github.com/kataras/iris/websocket"
+	"github.com/radiantrfid/iris/context"
+	"github.com/radiantrfid/iris/core/router"
+	"github.com/radiantrfid/iris/hero"
+	"github.com/radiantrfid/iris/hero/di"
+	"github.com/radiantrfid/iris/websocket"
 
 	"github.com/kataras/golog"
 )
@@ -186,7 +186,7 @@ func (app *Application) SortByNumMethods() *Application {
 // Result or (Result, error)
 // where Get is an HTTP Method func.
 //
-// Examples at: https://github.com/kataras/iris/tree/master/_examples/mvc
+// Examples at: https://github.com/radiantrfid/iris/tree/master/_examples/mvc
 func (app *Application) Handle(controller interface{}) *Application {
 	app.handle(controller)
 	return app

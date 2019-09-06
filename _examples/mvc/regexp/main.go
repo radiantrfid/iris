@@ -4,7 +4,7 @@ package main
 /*
 There is no MVC naming pattern for such these things,you can imagine the limitations of that.
 Instead you can use the `BeforeActivation` on your controller to add more advanced routing features
-(https://github.com/kataras/iris/tree/master/_examples/routing).
+(https://github.com/radiantrfid/iris/tree/master/_examples/routing).
 
 You can also create your own macro,
 i.e: /{file:json} or macro function of a specific parameter type i.e: (/{file:string json()}).
@@ -12,8 +12,8 @@ Read the routing examples and you will gain a deeper view, there are all covered
 */
 
 import (
-	"github.com/kataras/iris"
-	"github.com/kataras/iris/mvc"
+	"github.com/radiantrfid/iris"
+	"github.com/radiantrfid/iris/mvc"
 )
 
 func main() {

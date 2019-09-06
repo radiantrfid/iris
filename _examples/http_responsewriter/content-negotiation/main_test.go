@@ -7,7 +7,7 @@ import (
 	"io/ioutil"
 	"testing"
 
-	"github.com/kataras/iris/httptest"
+	"github.com/radiantrfid/iris/httptest"
 )
 
 func TestContentNegotiation(t *testing.T) {

@@ -3,9 +3,9 @@ package versioning_test
 import (
 	"testing"
 
-	"github.com/kataras/iris"
-	"github.com/kataras/iris/httptest"
-	"github.com/kataras/iris/versioning"
+	"github.com/radiantrfid/iris"
+	"github.com/radiantrfid/iris/httptest"
+	"github.com/radiantrfid/iris/versioning"
 )
 
 func notFoundHandler(ctx iris.Context) {

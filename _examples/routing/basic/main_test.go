@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/kataras/iris/httptest"
+	"github.com/radiantrfid/iris/httptest"
 )
 
 // Shows a very basic usage of the httptest.

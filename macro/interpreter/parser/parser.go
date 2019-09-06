@@ -5,9 +5,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/kataras/iris/macro/interpreter/ast"
-	"github.com/kataras/iris/macro/interpreter/lexer"
-	"github.com/kataras/iris/macro/interpreter/token"
+	"github.com/radiantrfid/iris/macro/interpreter/ast"
+	"github.com/radiantrfid/iris/macro/interpreter/lexer"
+	"github.com/radiantrfid/iris/macro/interpreter/token"
 )
 
 // Parse takes a route "fullpath"

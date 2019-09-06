@@ -1,6 +1,6 @@
 package main
 
-import "github.com/kataras/iris"
+import "github.com/radiantrfid/iris"
 
 func newApp() *iris.Application {
 	app := iris.New()

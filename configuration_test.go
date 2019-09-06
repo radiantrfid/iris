@@ -156,7 +156,7 @@ RemoteAddrHeaders:
   CF-Connecting-IP: true
 
 Other:
-  MyServerName: "Iris: https://github.com/kataras/iris"
+  MyServerName: "Iris: https://github.com/radiantrfid/iris"
 `
 	yamlFile.WriteString(yamlConfigurationContents)
 	filename := yamlFile.Name()
@@ -220,7 +220,7 @@ Other:
 		t.Fatalf("error on TestConfigurationYAML: Expected Other to be filled")
 	}
 
-	if expected, got := "Iris: https://github.com/kataras/iris", c.Other["MyServerName"]; expected != got {
+	if expected, got := "Iris: https://github.com/radiantrfid/iris", c.Other["MyServerName"]; expected != got {
 		t.Fatalf("error on TestConfigurationYAML: Expected Other['MyServerName'] %s but got %s", expected, got)
 	}
 }
@@ -254,7 +254,7 @@ Charset = "UTF-8"
 
 [Other]
 	# Indentation (tabs and/or spaces) is allowed but not required
-	MyServerName = "Iris: https://github.com/kataras/iris"
+	MyServerName = "Iris: https://github.com/radiantrfid/iris"
 
 `
 	tomlFile.WriteString(tomlConfigurationContents)
@@ -319,7 +319,7 @@ Charset = "UTF-8"
 		t.Fatalf("error on TestConfigurationTOML: Expected Other to be filled")
 	}
 
-	if expected, got := "Iris: https://github.com/kataras/iris", c.Other["MyServerName"]; expected != got {
+	if expected, got := "Iris: https://github.com/radiantrfid/iris", c.Other["MyServerName"]; expected != got {
 		t.Fatalf("error on TestConfigurationTOML: Expected Other['MyServerName'] %s but got %s", expected, got)
 	}
 }

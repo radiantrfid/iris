@@ -5,11 +5,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/kataras/iris/cache"
+	"github.com/radiantrfid/iris/cache"
 
-	"github.com/kataras/iris"
-	"github.com/kataras/iris/context"
-	"github.com/kataras/iris/httptest"
+	"github.com/radiantrfid/iris"
+	"github.com/radiantrfid/iris/context"
+	"github.com/radiantrfid/iris/httptest"
 )
 
 func TestNoCache(t *testing.T) {

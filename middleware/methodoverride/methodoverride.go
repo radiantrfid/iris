@@ -5,8 +5,8 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/kataras/iris/context"
-	"github.com/kataras/iris/core/router"
+	"github.com/radiantrfid/iris/context"
+	"github.com/radiantrfid/iris/core/router"
 )
 
 type options struct {
@@ -183,7 +183,7 @@ func Only(o ...Option) Option {
 //
 //
 // Read more at:
-// https://github.com/kataras/iris/issues/1325
+// https://github.com/radiantrfid/iris/issues/1325
 func New(opt ...Option) router.WrapperFunc {
 	opts := new(options)
 	// Default values.

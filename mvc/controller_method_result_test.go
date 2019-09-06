@@ -4,11 +4,11 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/kataras/iris"
-	"github.com/kataras/iris/context"
-	"github.com/kataras/iris/httptest"
+	"github.com/radiantrfid/iris"
+	"github.com/radiantrfid/iris/context"
+	"github.com/radiantrfid/iris/httptest"
 
-	. "github.com/kataras/iris/mvc"
+	. "github.com/radiantrfid/iris/mvc"
 )
 
 type testControllerMethodResult struct {

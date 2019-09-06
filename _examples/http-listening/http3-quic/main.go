@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/kataras/iris"
+	"github.com/radiantrfid/iris"
 
 	"github.com/lucas-clemente/quic-go/http3"
 )

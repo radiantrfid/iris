@@ -6,7 +6,7 @@ import (
 	"time"
 
 	"github.com/jinzhu/gorm"
-	"github.com/kataras/iris"
+	"github.com/radiantrfid/iris"
 	_ "github.com/mattn/go-sqlite3"
 )
 

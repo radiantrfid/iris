@@ -4,7 +4,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/kataras/iris"
+	"github.com/radiantrfid/iris"
 )
 
 func main() {

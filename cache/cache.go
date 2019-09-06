@@ -9,8 +9,8 @@ Example code:
 		 import (
 		 	"time"
 
-		 	"github.com/kataras/iris"
-		 	"github.com/kataras/iris/cache"
+		 	"github.com/radiantrfid/iris"
+		 	"github.com/radiantrfid/iris/cache"
 		 )
 
 		 func main(){
@@ -30,8 +30,8 @@ package cache
 import (
 	"time"
 
-	"github.com/kataras/iris/cache/client"
-	"github.com/kataras/iris/context"
+	"github.com/radiantrfid/iris/cache/client"
+	"github.com/radiantrfid/iris/context"
 )
 
 // Cache accepts the cache expiration duration.
@@ -52,7 +52,7 @@ func Cache(expiration time.Duration) *client.Handler {
 // Handler like `Cache` but returns an Iris Handler to be used as a middleware.
 // For more options use the `Cache`.
 //
-// Examples can be found at: https://github.com/kataras/iris/tree/master/_examples/#caching
+// Examples can be found at: https://github.com/radiantrfid/iris/tree/master/_examples/#caching
 func Handler(expiration time.Duration) context.Handler {
 	h := Cache(expiration).ServeHTTP
 	return h

@@ -1,10 +1,10 @@
 package storeapi
 
 import (
-	"github.com/kataras/iris/_examples/tutorial/mongodb/httputil"
-	"github.com/kataras/iris/_examples/tutorial/mongodb/store"
+	"github.com/radiantrfid/iris/_examples/tutorial/mongodb/httputil"
+	"github.com/radiantrfid/iris/_examples/tutorial/mongodb/store"
 
-	"github.com/kataras/iris"
+	"github.com/radiantrfid/iris"
 )
 
 type MovieHandler struct {

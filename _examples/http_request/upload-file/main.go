@@ -8,7 +8,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/kataras/iris"
+	"github.com/radiantrfid/iris"
 )
 
 const maxSize = 5 << 20 // 5MB

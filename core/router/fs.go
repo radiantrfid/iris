@@ -14,7 +14,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/kataras/iris/context"
+	"github.com/radiantrfid/iris/context"
 )
 
 const indexName = "/index.html"
@@ -171,7 +171,7 @@ func (f *embeddedDir) Readdir(count int) ([]os.FileInfo, error) {
 // The second optional parameter is any optional settings that the caller can use.
 //
 // See `Party#HandleDir` too.
-// Examples can be found at: https://github.com/kataras/iris/tree/master/_examples/file-server
+// Examples can be found at: https://github.com/radiantrfid/iris/tree/master/_examples/file-server
 func FileServer(directory string, opts ...DirOptions) context.Handler {
 	if directory == "" {
 		panic("FileServer: directory is empty. The directory parameter should point to a physical system directory or to an embedded one")

@@ -3,9 +3,9 @@ package methodoverride_test
 import (
 	"testing"
 
-	"github.com/kataras/iris"
-	"github.com/kataras/iris/httptest"
-	"github.com/kataras/iris/middleware/methodoverride"
+	"github.com/radiantrfid/iris"
+	"github.com/radiantrfid/iris/httptest"
+	"github.com/radiantrfid/iris/middleware/methodoverride"
 )
 
 func TestMethodOverrideWrapper(t *testing.T) {

@@ -6,10 +6,10 @@ Example:
 
 ```go
 import (
-    "github.com/kataras/iris/_examples/mvc/overview/datamodels"
+    "github.com/radiantrfid/iris/_examples/mvc/overview/datamodels"
 
-    "github.com/kataras/iris"
-    "github.com/kataras/iris/context"
+    "github.com/radiantrfid/iris"
+    "github.com/radiantrfid/iris/context"
 )
 
 type Movie struct {

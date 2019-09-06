@@ -5,10 +5,10 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/kataras/iris/context"
-	"github.com/kataras/iris/core/errors"
-	"github.com/kataras/iris/core/netutil"
-	macroHandler "github.com/kataras/iris/macro/handler"
+	"github.com/radiantrfid/iris/context"
+	"github.com/radiantrfid/iris/core/errors"
+	"github.com/radiantrfid/iris/core/netutil"
+	macroHandler "github.com/radiantrfid/iris/macro/handler"
 
 	"github.com/kataras/golog"
 )
@@ -193,7 +193,7 @@ func (h *routerHandler) HandleRequest(ctx context.Context) {
 				// do redirect, else continue with the modified path without the last "/".
 				url := r.URL.String()
 
-				// Fixes https://github.com/kataras/iris/issues/921
+				// Fixes https://github.com/radiantrfid/iris/issues/921
 				// This is caused for security reasons, imagine a payment shop,
 				// you can't just permantly redirect a POST request, so just 307 (RFC 7231, 6.4.7).
 				if method == http.MethodPost || method == http.MethodPut {

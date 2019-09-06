@@ -2,14 +2,14 @@
 
 Please do learn how [net/http](https://golang.org/pkg/net/http/) std package works, first.
 
-This folder provides easy to understand code snippets on how to get started with [iris](https://github.com/kataras/iris) web framework.
+This folder provides easy to understand code snippets on how to get started with [iris](https://github.com/radiantrfid/iris) web framework.
 
 It doesn't always contain the "best ways" but it does cover each important feature that will make you so excited to GO with iris!
 
 ## Running the examples
 
 1. Install the Go Programming Language, version 1.12+ from https://golang.org/dl.
-2. [Install Iris](https://github.com/kataras/iris/wiki/installation)
+2. [Install Iris](https://github.com/radiantrfid/iris/wiki/installation)
 3. Install any external packages that required by the examples
 
 <details>
@@ -24,7 +24,7 @@ cd _examples && go get ./...
 And run each example you wanna see, e.g.
 
 ```sh
-$ cd $GOPATH/src/github.com/kataras/iris/_examples/overview
+$ cd $GOPATH/src/github.com/radiantrfid/iris/_examples/overview
 $ go run main.go
 ```
 
@@ -40,7 +40,7 @@ $ go run main.go
 - [Tutorial: URL Shortener using BoltDB](https://medium.com/@kataras/a-url-shortener-service-using-go-iris-and-bolt-4182f0b00ae7)
 - [Tutorial: How to turn your Android Device into a fully featured Web Server (**MUST**)](https://twitter.com/ThePracticalDev/status/892022594031017988)
 - [POC: Convert the medium-sized project "Parrot" from native to Iris](https://github.com/iris-contrib/parrot)
-- [POC: Isomorphic react/hot reloadable/redux/css-modules starter kit](https://github.com/kataras/iris-starter-kit)
+- [POC: Isomorphic react/hot reloadable/redux/css-modules starter kit](https://github.com/radiantrfid/iris-starter-kit)
 - [Tutorial: DropzoneJS Uploader](tutorial/dropzonejs)
 - [Tutorial: Caddy](tutorial/caddy)
 - [Tutorial:Iris Go Framework + MongoDB](https://medium.com/go-language/iris-go-framework-mongodb-552e349eab9c)
@@ -144,7 +144,7 @@ Navigate through examples for a better understanding.
 
 ### Versioning
 
-- [How it works](https://github.com/kataras/iris/blob/master/versioning/README.md)
+- [How it works](https://github.com/radiantrfid/iris/blob/master/versioning/README.md)
 - [Example](versioning/main.go)
 
 ### Dependency Injection
@@ -257,7 +257,7 @@ You can serve [quicktemplate](https://github.com/valyala/quicktemplate) and [her
 
 ### Miscellaneous
 
-- [HTTP Method Override](https://github.com/kataras/iris/blob/master/middleware/methodoverride/methodoverride_test.go) **NEW**
+- [HTTP Method Override](https://github.com/radiantrfid/iris/blob/master/middleware/methodoverride/methodoverride_test.go) **NEW**
 - [Request Logger](http_request/request-logger/main.go)
     * [log requests to a file](http_request/request-logger/request-logger-file/main.go)
 - [Localization and Internationalization](miscellaneous/i18n/main.go)
@@ -281,7 +281,7 @@ You can serve [quicktemplate](https://github.com/valyala/quicktemplate) and [her
 
 #### More
 
-https://github.com/kataras/iris/tree/master/middleware#third-party-handlers
+https://github.com/radiantrfid/iris/tree/master/middleware#third-party-handlers
 
 ### Automated API Documentation
 
@@ -295,7 +295,7 @@ The `httptest` package is your way for end-to-end HTTP testing, it uses the http
 
 ### Caching
 
-iris cache library lives on its own [package](https://github.com/kataras/iris/tree/master/cache).
+iris cache library lives on its own [package](https://github.com/radiantrfid/iris/tree/master/cache).
 
 - [Simple](cache/simple/main.go)
 - [Client-Side (304)](cache/client-side/main.go) - part of the iris context core
@@ -309,7 +309,7 @@ iris cache library lives on its own [package](https://github.com/kataras/iris/tr
 
 ### Sessions
 
-iris session manager lives on its own [package](https://github.com/kataras/iris/tree/master/sessions).
+iris session manager lives on its own [package](https://github.com/radiantrfid/iris/tree/master/sessions).
 
 - [Overview](sessions/overview/main.go)
 - [Middleware](sessions/middleware/main.go)
@@ -334,12 +334,12 @@ iris session manager lives on its own [package](https://github.com/kataras/iris/
 
 ### Typescript Automation Tools
 
-typescript automation tools have their own repository: [https://github.com/kataras/iris/tree/master/typescript](https://github.com/kataras/iris/tree/master/typescript) **it contains examples**
+typescript automation tools have their own repository: [https://github.com/radiantrfid/iris/tree/master/typescript](https://github.com/radiantrfid/iris/tree/master/typescript) **it contains examples**
 
 > I'd like to tell you that you can use your favourite but I don't think you will find such a thing anywhere else.
 
 ### Hey, You
 
-Developers should read the [godocs](https://godoc.org/github.com/kataras/iris) and https://docs.iris-go.com for a better understanding.
+Developers should read the [godocs](https://godoc.org/github.com/radiantrfid/iris) and https://docs.iris-go.com for a better understanding.
 
-Psst, I almost forgot; do not forget to [star or watch](https://github.com/kataras/iris/stargazers) the project in order to stay updated with the latest tech trends, it never takes more than a second!
+Psst, I almost forgot; do not forget to [star or watch](https://github.com/radiantrfid/iris/stargazers) the project in order to stay updated with the latest tech trends, it never takes more than a second!

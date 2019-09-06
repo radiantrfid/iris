@@ -21,8 +21,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/kataras/iris/core/errors"
-	"github.com/kataras/iris/core/memstore"
+	"github.com/radiantrfid/iris/core/errors"
+	"github.com/radiantrfid/iris/core/memstore"
 
 	"github.com/Shopify/goreferrer"
 	"github.com/fatih/structs"
@@ -50,7 +50,7 @@ type (
 	// Note: This is totally optionally, the default decoders
 	// for ReadJSON is the encoding/json and for ReadXML is the encoding/xml.
 	//
-	// Example: https://github.com/kataras/iris/blob/master/_examples/http_request/read-custom-per-type/main.go
+	// Example: https://github.com/radiantrfid/iris/blob/master/_examples/http_request/read-custom-per-type/main.go
 	BodyDecoder interface {
 		Decode(data []byte) error
 	}
@@ -65,7 +65,7 @@ type (
 	//
 	// See 'Unmarshaler' and 'BodyDecoder' for more.
 	//
-	// Example: https://github.com/kataras/iris/blob/master/_examples/http_request/read-custom-via-unmarshaler/main.go
+	// Example: https://github.com/radiantrfid/iris/blob/master/_examples/http_request/read-custom-via-unmarshaler/main.go
 	UnmarshalerFunc func(data []byte, outPtr interface{}) error
 )
 
@@ -296,7 +296,7 @@ type Context interface {
 	// it calls the Values().Get(ctx.Application().ConfigurationReadOnly().GetTranslateFunctionContextKey())
 	// to execute the translate function and return the localized text value.
 	//
-	// Example: https://github.com/kataras/iris/tree/master/_examples/miscellaneous/i18n
+	// Example: https://github.com/radiantrfid/iris/tree/master/_examples/miscellaneous/i18n
 	Translate(format string, args ...interface{}) string
 
 	//  +------------------------------------------------------------+
@@ -514,7 +514,7 @@ type Context interface {
 	// The default form's memory maximum size is 32MB, it can be changed by the
 	//  `iris#WithPostMaxMemory` configurator at main configuration passed on `app.Run`'s second argument.
 	//
-	// Example: https://github.com/kataras/iris/tree/master/_examples/http_request/upload-file
+	// Example: https://github.com/radiantrfid/iris/tree/master/_examples/http_request/upload-file
 	FormFile(key string) (multipart.File, *multipart.FileHeader, error)
 	// UploadFormFiles uploads any received file(s) from the client
 	// to the system physical location "destDirectory".
@@ -541,7 +541,7 @@ type Context interface {
 	// See `FormFile` to a more controlled to receive a file.
 	//
 	//
-	// Example: https://github.com/kataras/iris/tree/master/_examples/http_request/upload-files
+	// Example: https://github.com/radiantrfid/iris/tree/master/_examples/http_request/upload-files
 	UploadFormFiles(destDirectory string, before ...func(Context, *multipart.FileHeader)) (n int64, err error)
 
 	//  +------------------------------------------------------------+
@@ -573,7 +573,7 @@ type Context interface {
 	// UnmarshalBody reads the request's body and binds it to a value or pointer of any type.
 	// Examples of usage: context.ReadJSON, context.ReadXML.
 	//
-	// Example: https://github.com/kataras/iris/blob/master/_examples/http_request/read-custom-via-unmarshaler/main.go
+	// Example: https://github.com/radiantrfid/iris/blob/master/_examples/http_request/read-custom-via-unmarshaler/main.go
 	//
 	// UnmarshalBody does not check about gzipped data.
 	// Do not rely on compressed data incoming to your server. The main reason is: https://en.wikipedia.org/wiki/Zip_bomb
@@ -581,26 +581,26 @@ type Context interface {
 	UnmarshalBody(outPtr interface{}, unmarshaler Unmarshaler) error
 	// ReadJSON reads JSON from request's body and binds it to a pointer of a value of any json-valid type.
 	//
-	// Example: https://github.com/kataras/iris/blob/master/_examples/http_request/read-json/main.go
+	// Example: https://github.com/radiantrfid/iris/blob/master/_examples/http_request/read-json/main.go
 	ReadJSON(jsonObjectPtr interface{}) error
 	// ReadXML reads XML from request's body and binds it to a pointer of a value of any xml-valid type.
 	//
-	// Example: https://github.com/kataras/iris/blob/master/_examples/http_request/read-xml/main.go
+	// Example: https://github.com/radiantrfid/iris/blob/master/_examples/http_request/read-xml/main.go
 	ReadXML(xmlObjectPtr interface{}) error
 	// ReadYAML reads YAML from request's body and binds it to the "outPtr" value.
 	//
-	// Example: https://github.com/kataras/iris/blob/master/_examples/http_request/read-yaml/main.go
+	// Example: https://github.com/radiantrfid/iris/blob/master/_examples/http_request/read-yaml/main.go
 	ReadYAML(outPtr interface{}) error
 	// ReadForm binds the formObject  with the form data
 	// it supports any kind of type, including custom structs.
 	// It will return nothing if request data are empty.
 	// The struct field tag is "form".
 	//
-	// Example: https://github.com/kataras/iris/blob/master/_examples/http_request/read-form/main.go
+	// Example: https://github.com/radiantrfid/iris/blob/master/_examples/http_request/read-form/main.go
 	ReadForm(formObject interface{}) error
 	// ReadQuery binds the "ptr" with the url query string. The struct field tag is "url".
 	//
-	// Example: https://github.com/kataras/iris/blob/master/_examples/http_request/read-query/main.go
+	// Example: https://github.com/radiantrfid/iris/blob/master/_examples/http_request/read-query/main.go
 	ReadQuery(ptr interface{}) error
 	//  +------------------------------------------------------------+
 	//  | Body (raw) Writers                                         |
@@ -724,7 +724,7 @@ type Context interface {
 	//
 	// Look .ViewData and .View too.
 	//
-	// Example: https://github.com/kataras/iris/tree/master/_examples/view/context-view-data/
+	// Example: https://github.com/radiantrfid/iris/tree/master/_examples/view/context-view-data/
 	ViewLayout(layoutTmplFile string)
 	// ViewData saves one or more key-value pair in order to be passed if and when .View
 	// is being called afterwards, in the same request.
@@ -743,7 +743,7 @@ type Context interface {
 	//
 	// Look .ViewLayout and .View too.
 	//
-	// Example: https://github.com/kataras/iris/tree/master/_examples/view/context-view-data/
+	// Example: https://github.com/radiantrfid/iris/tree/master/_examples/view/context-view-data/
 	ViewData(key string, value interface{})
 	// GetViewData returns the values registered by `context#ViewData`.
 	// The return value is `map[string]interface{}`, this means that
@@ -767,7 +767,7 @@ type Context interface {
 	//
 	// Look .ViewData` and .ViewLayout too.
 	//
-	// Examples: https://github.com/kataras/iris/tree/master/_examples/view
+	// Examples: https://github.com/radiantrfid/iris/tree/master/_examples/view
 	View(filename string, optionalViewModel ...interface{}) error
 
 	// Binary writes out the raw bytes as binary data.
@@ -793,7 +793,7 @@ type Context interface {
 	// Use the options.RenderXML and XML fields to change this behavior and
 	// send a response of content type "application/problem+xml" instead.
 	//
-	// Read more at: https://github.com/kataras/iris/wiki/Routing-error-handlers
+	// Read more at: https://github.com/radiantrfid/iris/wiki/Routing-error-handlers
 	Problem(v interface{}, opts ...ProblemOptions) (int, error)
 	// Markdown parses the markdown to html and renders its result to the client.
 	Markdown(markdownB []byte, options ...Markdown) (int, error)
@@ -839,7 +839,7 @@ type Context interface {
 	//
 	// Supports the above without quality values.
 	//
-	// Read more at: https://github.com/kataras/iris/wiki/Content-negotiation
+	// Read more at: https://github.com/radiantrfid/iris/wiki/Content-negotiation
 	Negotiate(v interface{}) (int, error)
 
 	//  +------------------------------------------------------------+
@@ -879,7 +879,7 @@ type Context interface {
 	// SetCookie adds a cookie.
 	// Use of the "options" is not required, they can be used to amend the "cookie".
 	//
-	// Example: https://github.com/kataras/iris/tree/master/_examples/cookies/basic
+	// Example: https://github.com/radiantrfid/iris/tree/master/_examples/cookies/basic
 	SetCookie(cookie *http.Cookie, options ...CookieOption)
 	// SetCookieKV adds a cookie, requires the name(string) and the value(string).
 	//
@@ -896,7 +896,7 @@ type Context interface {
 	//                              iris.CookieExpires(time.Duration)
 	//                              iris.CookieHTTPOnly(false)
 	//
-	// Example: https://github.com/kataras/iris/tree/master/_examples/cookies/basic
+	// Example: https://github.com/radiantrfid/iris/tree/master/_examples/cookies/basic
 	SetCookieKV(name, value string, options ...CookieOption)
 	// GetCookie returns cookie's value by its name
 	// returns empty string if nothing was found.
@@ -904,12 +904,12 @@ type Context interface {
 	// If you want more than the value then:
 	// cookie, err := ctx.Request().Cookie("name")
 	//
-	// Example: https://github.com/kataras/iris/tree/master/_examples/cookies/basic
+	// Example: https://github.com/radiantrfid/iris/tree/master/_examples/cookies/basic
 	GetCookie(name string, options ...CookieOption) string
 	// RemoveCookie deletes a cookie by its name and path = "/".
 	// Tip: change the cookie's path to the current one by: RemoveCookie("name", iris.CookieCleanPath)
 	//
-	// Example: https://github.com/kataras/iris/tree/master/_examples/cookies/basic
+	// Example: https://github.com/radiantrfid/iris/tree/master/_examples/cookies/basic
 	RemoveCookie(name string, options ...CookieOption)
 	// VisitAllCookies accepts a visitor function which is called
 	// on each (request's) cookies' name and value.
@@ -947,7 +947,7 @@ type Context interface {
 	// this transaction scope is only for context's response.
 	// Transactions have their own middleware ecosystem also, look iris.go:UseTransaction.
 	//
-	// See https://github.com/kataras/iris/tree/master/_examples/ for more
+	// See https://github.com/radiantrfid/iris/tree/master/_examples/ for more
 	BeginTransaction(pipe func(t *Transaction))
 	// SkipTransactions if called then skip the rest of the transactions
 	// or all of them if called before the first transaction
@@ -971,7 +971,7 @@ type Context interface {
 	//
 	// app.None(...) and app.GetRoutes().Offline(route)/.Online(route, method)
 	//
-	// Example: https://github.com/kataras/iris/tree/master/_examples/routing/route-state
+	// Example: https://github.com/radiantrfid/iris/tree/master/_examples/routing/route-state
 	//
 	// User can get the response by simple using rec := ctx.Recorder(); rec.Body()/rec.StatusCode()/rec.Header().
 	//
@@ -1316,7 +1316,7 @@ var Next = DefaultNext
 // It can be changed to a customized one if needed (very advanced usage).
 //
 // Developers are free to customize the whole or part of the Context's implementation
-// by implementing a new `context.Context` (see https://github.com/kataras/iris/tree/master/_examples/routing/custom-context)
+// by implementing a new `context.Context` (see https://github.com/radiantrfid/iris/tree/master/_examples/routing/custom-context)
 // or by just override the `context.Next` package-level field, `context.DefaultNext` is exported
 // in order to be able for developers to merge your customized version one with the default behavior as well.
 func DefaultNext(ctx Context) {
@@ -1501,7 +1501,7 @@ func (ctx *context) Values() *memstore.Store {
 // it calls the Values().Get(ctx.Application().ConfigurationReadOnly().GetTranslateFunctionContextKey())
 // to execute the translate function and return the localized text value.
 //
-// Example: https://github.com/kataras/iris/tree/master/_examples/miscellaneous/i18n
+// Example: https://github.com/radiantrfid/iris/tree/master/_examples/miscellaneous/i18n
 func (ctx *context) Translate(format string, args ...interface{}) string {
 	if cb, ok := ctx.values.Get(ctx.Application().ConfigurationReadOnly().GetTranslateFunctionContextKey()).(func(format string, args ...interface{}) string); ok {
 		return cb(format, args...)
@@ -2281,7 +2281,7 @@ func (ctx *context) PostValues(name string) []string {
 // The default form's memory maximum size is 32MB, it can be changed by the
 // `iris#WithPostMaxMemory` configurator at main configuration passed on `app.Run`'s second argument.
 //
-// Example: https://github.com/kataras/iris/tree/master/_examples/http_request/upload-file
+// Example: https://github.com/radiantrfid/iris/tree/master/_examples/http_request/upload-file
 func (ctx *context) FormFile(key string) (multipart.File, *multipart.FileHeader, error) {
 	// we don't have access to see if the request is body stream
 	// and then the ParseMultipartForm can be useless
@@ -2319,7 +2319,7 @@ func (ctx *context) FormFile(key string) (multipart.File, *multipart.FileHeader,
 //
 // See `FormFile` to a more controlled to receive a file.
 //
-// Example: https://github.com/kataras/iris/tree/master/_examples/http_request/upload-files
+// Example: https://github.com/radiantrfid/iris/tree/master/_examples/http_request/upload-files
 func (ctx *context) UploadFormFiles(destDirectory string, before ...func(Context, *multipart.FileHeader)) (n int64, err error) {
 	err = ctx.request.ParseMultipartForm(ctx.Application().ConfigurationReadOnly().GetPostMaxMemory())
 	if err != nil {
@@ -2489,7 +2489,7 @@ func GetBody(r *http.Request, resetBody bool) ([]byte, error) {
 // UnmarshalBody reads the request's body and binds it to a value or pointer of any type
 // Examples of usage: context.ReadJSON, context.ReadXML.
 //
-// Example: https://github.com/kataras/iris/blob/master/_examples/http_request/read-custom-via-unmarshaler/main.go
+// Example: https://github.com/radiantrfid/iris/blob/master/_examples/http_request/read-custom-via-unmarshaler/main.go
 //
 // UnmarshalBody does not check about gzipped data.
 // Do not rely on compressed data incoming to your server. The main reason is: https://en.wikipedia.org/wiki/Zip_bomb
@@ -2529,7 +2529,7 @@ func (ctx *context) shouldOptimize() bool {
 
 // ReadJSON reads JSON from request's body and binds it to a value of any json-valid type.
 //
-// Example: https://github.com/kataras/iris/blob/master/_examples/http_request/read-json/main.go
+// Example: https://github.com/radiantrfid/iris/blob/master/_examples/http_request/read-json/main.go
 func (ctx *context) ReadJSON(outPtr interface{}) error {
 	unmarshaler := json.Unmarshal
 	if ctx.shouldOptimize() {
@@ -2540,14 +2540,14 @@ func (ctx *context) ReadJSON(outPtr interface{}) error {
 
 // ReadXML reads XML from request's body and binds it to a value of any xml-valid type.
 //
-// Example: https://github.com/kataras/iris/blob/master/_examples/http_request/read-xml/main.go
+// Example: https://github.com/radiantrfid/iris/blob/master/_examples/http_request/read-xml/main.go
 func (ctx *context) ReadXML(outPtr interface{}) error {
 	return ctx.UnmarshalBody(outPtr, UnmarshalerFunc(xml.Unmarshal))
 }
 
 // ReadYAML reads YAML from request's body and binds it to the "outPtr" value.
 //
-// Example: https://github.com/kataras/iris/blob/master/_examples/http_request/read-yaml/main.go
+// Example: https://github.com/radiantrfid/iris/blob/master/_examples/http_request/read-yaml/main.go
 func (ctx *context) ReadYAML(outPtr interface{}) error {
 	return ctx.UnmarshalBody(outPtr, UnmarshalerFunc(yaml.Unmarshal))
 }
@@ -2564,7 +2564,7 @@ var IsErrPath = schema.IsErrPath
 // It will return nothing if request data are empty.
 // The struct field tag is "form".
 //
-// Example: https://github.com/kataras/iris/blob/master/_examples/http_request/read-form/main.go
+// Example: https://github.com/radiantrfid/iris/blob/master/_examples/http_request/read-form/main.go
 func (ctx *context) ReadForm(formObject interface{}) error {
 	values := ctx.FormValues()
 	if len(values) == 0 {
@@ -2576,7 +2576,7 @@ func (ctx *context) ReadForm(formObject interface{}) error {
 
 // ReadQuery binds the "ptr" with the url query string. The struct field tag is "url".
 //
-// Example: https://github.com/kataras/iris/blob/master/_examples/http_request/read-query/main.go
+// Example: https://github.com/radiantrfid/iris/blob/master/_examples/http_request/read-query/main.go
 func (ctx *context) ReadQuery(ptr interface{}) error {
 	values := ctx.request.URL.Query()
 	if len(values) == 0 {
@@ -2891,7 +2891,7 @@ const (
 //
 // Look .ViewData and .View too.
 //
-// Example: https://github.com/kataras/iris/tree/master/_examples/view/context-view-data/
+// Example: https://github.com/radiantrfid/iris/tree/master/_examples/view/context-view-data/
 func (ctx *context) ViewLayout(layoutTmplFile string) {
 	ctx.values.Set(ctx.Application().ConfigurationReadOnly().GetViewLayoutContextKey(), layoutTmplFile)
 }
@@ -2913,7 +2913,7 @@ func (ctx *context) ViewLayout(layoutTmplFile string) {
 //
 // Look .ViewLayout and .View too.
 //
-// Example: https://github.com/kataras/iris/tree/master/_examples/view/context-view-data/
+// Example: https://github.com/radiantrfid/iris/tree/master/_examples/view/context-view-data/
 func (ctx *context) ViewData(key string, value interface{}) {
 	viewDataContextKey := ctx.Application().ConfigurationReadOnly().GetViewDataContextKey()
 	if key == "" {
@@ -2983,7 +2983,7 @@ func (ctx *context) GetViewData() map[string]interface{} {
 //
 // Look .ViewData and .ViewLayout too.
 //
-// Examples: https://github.com/kataras/iris/tree/master/_examples/view
+// Examples: https://github.com/radiantrfid/iris/tree/master/_examples/view
 func (ctx *context) View(filename string, optionalViewModel ...interface{}) error {
 	ctx.ContentType(ContentHTMLHeaderValue)
 	cfg := ctx.Application().ConfigurationReadOnly()
@@ -3347,7 +3347,7 @@ func (ctx *context) XML(v interface{}, opts ...XML) (int, error) {
 // Use the options.RenderXML and XML fields to change this behavior and
 // send a response of content type "application/problem+xml" instead.
 //
-// Read more at: https://github.com/kataras/iris/wiki/Routing-error-handlers
+// Read more at: https://github.com/radiantrfid/iris/wiki/Routing-error-handlers
 func (ctx *context) Problem(v interface{}, opts ...ProblemOptions) (int, error) {
 	options := DefaultProblemOptions
 	if len(opts) > 0 {
@@ -3570,7 +3570,7 @@ func parseHeader(headerValue string) []string {
 //
 // Supports the above without quality values.
 //
-// Read more at: https://github.com/kataras/iris/wiki/Content-negotiation
+// Read more at: https://github.com/radiantrfid/iris/wiki/Content-negotiation
 func (ctx *context) Negotiate(v interface{}) (int, error) {
 	contentType, charset, encoding, content := ctx.Negotiation().Build()
 	if v == nil {
@@ -4213,7 +4213,7 @@ type (
 // Accepts a `CookieEncoder` and sets the cookie's value to the encoded value.
 // Users of that is the `SetCookie` and `SetCookieKV`.
 //
-// Example: https://github.com/kataras/iris/tree/master/_examples/cookies/securecookie
+// Example: https://github.com/radiantrfid/iris/tree/master/_examples/cookies/securecookie
 func CookieEncode(encode CookieEncoder) CookieOption {
 	return func(c *http.Cookie) {
 		newVal, err := encode(c.Name, c.Value)
@@ -4230,7 +4230,7 @@ func CookieEncode(encode CookieEncoder) CookieOption {
 // Accepts a `CookieDecoder` and sets the cookie's value to the decoded value before return by the `GetCookie`.
 // User of that is the `GetCookie`.
 //
-// Example: https://github.com/kataras/iris/tree/master/_examples/cookies/securecookie
+// Example: https://github.com/radiantrfid/iris/tree/master/_examples/cookies/securecookie
 func CookieDecode(decode CookieDecoder) CookieOption {
 	return func(c *http.Cookie) {
 		if err := decode(c.Name, c.Value, &c.Value); err != nil {
@@ -4242,7 +4242,7 @@ func CookieDecode(decode CookieDecoder) CookieOption {
 // SetCookie adds a cookie.
 // Use of the "options" is not required, they can be used to amend the "cookie".
 //
-// Example: https://github.com/kataras/iris/tree/master/_examples/cookies/basic
+// Example: https://github.com/radiantrfid/iris/tree/master/_examples/cookies/basic
 func (ctx *context) SetCookie(cookie *http.Cookie, options ...CookieOption) {
 	for _, opt := range options {
 		opt(cookie)
@@ -4267,7 +4267,7 @@ func (ctx *context) SetCookie(cookie *http.Cookie, options ...CookieOption) {
 //                              iris.CookieExpires(time.Duration)
 //                              iris.CookieHTTPOnly(false)
 //
-// Examples: https://github.com/kataras/iris/tree/master/_examples/cookies/basic
+// Examples: https://github.com/radiantrfid/iris/tree/master/_examples/cookies/basic
 func (ctx *context) SetCookieKV(name, value string, options ...CookieOption) {
 	c := &http.Cookie{}
 	c.Path = "/"
@@ -4285,7 +4285,7 @@ func (ctx *context) SetCookieKV(name, value string, options ...CookieOption) {
 // If you want more than the value then:
 // cookie, err := ctx.Request().Cookie("name")
 //
-// Example: https://github.com/kataras/iris/tree/master/_examples/cookies/basic
+// Example: https://github.com/radiantrfid/iris/tree/master/_examples/cookies/basic
 func (ctx *context) GetCookie(name string, options ...CookieOption) string {
 	cookie, err := ctx.request.Cookie(name)
 	if err != nil {
@@ -4309,7 +4309,7 @@ var SetCookieKVExpiration = time.Duration(8760) * time.Hour
 // RemoveCookie deletes a cookie by its name and path = "/".
 // Tip: change the cookie's path to the current one by: RemoveCookie("name", iris.CookieCleanPath)
 //
-// Example: https://github.com/kataras/iris/tree/master/_examples/cookies/basic
+// Example: https://github.com/radiantrfid/iris/tree/master/_examples/cookies/basic
 func (ctx *context) RemoveCookie(name string, options ...CookieOption) {
 	c := &http.Cookie{}
 	c.Name = name
@@ -4401,7 +4401,7 @@ var errTransactionInterrupted = errors.New("transaction interrupted, recovery fr
 // this transaction scope is only for context's response.
 // Transactions have their own middleware ecosystem also.
 //
-// See https://github.com/kataras/iris/tree/master/_examples/ for more
+// See https://github.com/radiantrfid/iris/tree/master/_examples/ for more
 func (ctx *context) BeginTransaction(pipe func(t *Transaction)) {
 	// do NOT begin a transaction when the previous transaction has been failed
 	// and it was requested scoped or SkipTransactions called manually.
@@ -4466,7 +4466,7 @@ func (ctx *context) TransactionsSkipped() bool {
 //
 // app.None(...) and app.GetRoutes().Offline(route)/.Online(route, method)
 //
-// Example: https://github.com/kataras/iris/tree/master/_examples/routing/route-state
+// Example: https://github.com/radiantrfid/iris/tree/master/_examples/routing/route-state
 //
 // User can get the response by simple using rec := ctx.Recorder(); rec.Body()/rec.StatusCode()/rec.Header().
 //

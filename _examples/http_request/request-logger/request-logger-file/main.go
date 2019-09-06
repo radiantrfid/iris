@@ -5,8 +5,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/kataras/iris"
-	"github.com/kataras/iris/middleware/logger"
+	"github.com/radiantrfid/iris"
+	"github.com/radiantrfid/iris/middleware/logger"
 )
 
 const deleteFileOnExit = true

@@ -1,11 +1,11 @@
 # FAQ
 
-## [![iris](https://img.shields.io/badge/iris-powered-2196f3.svg?style=for-the-badge)](https://github.com/kataras/iris)
+## [![iris](https://img.shields.io/badge/iris-powered-2196f3.svg?style=for-the-badge)](https://github.com/radiantrfid/iris)
 
 Add a `badge` to your open-source projects powered by [Iris](https://iris-go.com) by pasting the below code snippet to the project repo's README.md:
 
 ```md
-[![iris](https://img.shields.io/badge/iris-powered-2196f3.svg?style=for-the-badge)](https://github.com/kataras/iris)
+[![iris](https://img.shields.io/badge/iris-powered-2196f3.svg?style=for-the-badge)](https://github.com/radiantrfid/iris)
 ```
 
 > The badge is optionally, of course, it is just a simple and fast way to support Iris. The badge is work of a third-party, taken from https://github.com/blob-go/blob-go which was published by our friend @clover113 and we loved it<3
@@ -16,12 +16,12 @@ Add a `badge` to your open-source projects powered by [Iris](https://iris-go.com
 
 <https://marketplace.visualstudio.com/items?itemName=kataras2006.iris>
 
-> Please feel free to list your own Iris extension(s) here by [PR](https://github.com/kataras/iris/pulls)
+> Please feel free to list your own Iris extension(s) here by [PR](https://github.com/radiantrfid/iris/pulls)
 
 ## How to upgrade
 
 ```sh
-go get github.com/kataras/iris@v11.2.0
+go get github.com/radiantrfid/iris@v11.2.0
 ```
 
 Go version 1.12 and above is required.
@@ -30,14 +30,14 @@ Go version 1.12 and above is required.
 
 More than 100 practical examples, tutorials and articles at:
 
-- https://github.com/kataras/iris#iris-starter-kits
-- https://github.com/kataras/iris/tree/master/_examples
+- https://github.com/radiantrfid/iris#iris-starter-kits
+- https://github.com/radiantrfid/iris/tree/master/_examples
 - https://github.com/iris-contrib/examples
 - https://iris-go.com/v11/recipe
 - https://docs.iris-go.com (in-progress)
-- https://godoc.org/github.com/kataras/iris
+- https://godoc.org/github.com/radiantrfid/iris
 
-> [Stay tuned](https://github.com/kataras/iris/stargazers), community prepares even more tutorials.
+> [Stay tuned](https://github.com/radiantrfid/iris/stargazers), community prepares even more tutorials.
 
 Want to help and join to the greatest community? Describe your skills and push your own sections at: https://github.com/kataras/build-a-better-web-together/issues/new
 

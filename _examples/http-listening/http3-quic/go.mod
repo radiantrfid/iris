@@ -1,4 +1,4 @@
-module github.com/kataras/iris/_examples/http-listening/http3-quic
+module github.com/radiantrfid/iris/_examples/http-listening/http3-quic
 
 go 1.12
 

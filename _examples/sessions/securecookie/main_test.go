@@ -3,8 +3,8 @@ package main
 import (
 	"testing"
 
-	"github.com/kataras/iris"
-	"github.com/kataras/iris/httptest"
+	"github.com/radiantrfid/iris"
+	"github.com/radiantrfid/iris/httptest"
 )
 
 func TestSessionsEncodeDecode(t *testing.T) {

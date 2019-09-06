@@ -7,9 +7,9 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/kataras/iris"
-	"github.com/kataras/iris/context"
-	"github.com/kataras/iris/hero"
+	"github.com/radiantrfid/iris"
+	"github.com/radiantrfid/iris/context"
+	"github.com/radiantrfid/iris/hero"
 )
 
 func main() {

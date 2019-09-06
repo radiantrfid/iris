@@ -6,10 +6,10 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/kataras/iris/core/netutil"
-	"github.com/kataras/iris/macro"
-	"github.com/kataras/iris/macro/interpreter/ast"
-	"github.com/kataras/iris/macro/interpreter/lexer"
+	"github.com/radiantrfid/iris/core/netutil"
+	"github.com/radiantrfid/iris/macro"
+	"github.com/radiantrfid/iris/macro/interpreter/ast"
+	"github.com/radiantrfid/iris/macro/interpreter/lexer"
 )
 
 // Param receives a parameter name prefixed with the ParamStart symbol.
