@@ -3,7 +3,7 @@ package main
 import (
 	"io/ioutil"
 
-	"github.com/kataras/iris"
+	"github.com/radiantrfid/iris/"
 )
 
 /*

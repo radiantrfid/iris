@@ -3,10 +3,10 @@ package main
 import (
 	"time"
 
-	"github.com/kataras/iris"
+	"github.com/radiantrfid/iris/"
 
-	"github.com/kataras/iris/sessions"
-	"github.com/kataras/iris/sessions/sessiondb/badger"
+	"github.com/radiantrfid/iris//sessions"
+	"github.com/radiantrfid/iris//sessions/sessiondb/badger"
 )
 
 func main() {

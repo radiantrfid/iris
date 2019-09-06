@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/kataras/iris"
+	"github.com/radiantrfid/iris/"
 
 	"github.com/casbin/casbin"
 	cm "github.com/iris-contrib/middleware/casbin"

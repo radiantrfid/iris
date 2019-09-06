@@ -4,7 +4,7 @@ import (
 	"testing"
 
 	"github.com/iris-contrib/httpexpect"
-	"github.com/kataras/iris/httptest"
+	"github.com/radiantrfid/iris//httptest"
 )
 
 func TestCasbinMiddleware(t *testing.T) {

@@ -8,7 +8,7 @@
 * OS: Microsoft **Windows** [Version **10**.0.15063], power plan is "High performance"
 * HTTP Benchmark Tool: https://github.com/codesenberg/bombardier, latest version **1.1**
 * **.NET Core**: https://www.microsoft.com/net/core, latest version **2.0**
-* **Iris**: https://github.com/kataras/iris, latest version **8.3** built with [go1.8.3](https://golang.org)
+* **Iris**: https://github.com/radiantrfid/iris/, latest version **8.3** built with [go1.8.3](https://golang.org)
 
 # .NET Core MVC vs Iris MVC
 

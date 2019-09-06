@@ -3,7 +3,7 @@ package main
 // go get -u github.com/iris-contrib/middleware/...
 
 import (
-	"github.com/kataras/iris"
+	"github.com/radiantrfid/iris/"
 
 	"github.com/iris-contrib/middleware/cors"
 )

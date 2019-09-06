@@ -3,8 +3,8 @@ package counter
 import (
 	"time"
 
-	"github.com/kataras/iris"
-	"github.com/kataras/iris/core/host"
+	"github.com/radiantrfid/iris/"
+	"github.com/radiantrfid/iris//core/host"
 )
 
 func Configurator(app *iris.Application) {

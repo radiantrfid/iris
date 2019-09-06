@@ -4,7 +4,7 @@ import (
 	"regexp"
 	"strconv"
 
-	"github.com/kataras/iris"
+	"github.com/radiantrfid/iris/"
 )
 
 func main() {
@@ -16,7 +16,7 @@ func main() {
 
 	// iris, like net/http std package registers route's handlers
 	// by a Handler, the iris' type of handler is just a func(ctx iris.Context)
-	// where context comes from github.com/kataras/iris/context.
+	// where context comes from github.com/radiantrfid/iris//context.
 	// Until go 1.9 you will have to import that package too, after go 1.9 this will be not be necessary.
 	//
 	// iris has the easiest and the most powerful routing process you have ever meet.

@@ -27,9 +27,9 @@ Many articles have been written, in the past, that lead developers not to use a 
 You’ll need two dependencies:
 
 1. Vue.js, for our client-side requirements. Download it from [here](https://vuejs.org/), latest v2.
-2. The Iris Web Framework, for our server-side requirements. Can be found [here](https://github.com/kataras/iris), latest v10.
+2. The Iris Web Framework, for our server-side requirements. Can be found [here](https://github.com/radiantrfid/iris/), latest v10.
 
-> If you have Go already installed then just execute `go get -u github.com/kataras/iris` to install the Iris Web Framework.
+> If you have Go already installed then just execute `go get -u github.com/radiantrfid/iris/` to install the Iris Web Framework.
 
 ## Start
 
@@ -415,10 +415,10 @@ package controllers
 import (
     "vuejs-todo-mvc/todo"
 
-    "github.com/kataras/iris"
-    "github.com/kataras/iris/mvc"
-    "github.com/kataras/iris/sessions"
-    "github.com/kataras/iris/websocket"
+    "github.com/radiantrfid/iris/"
+    "github.com/radiantrfid/iris//mvc"
+    "github.com/radiantrfid/iris//sessions"
+    "github.com/radiantrfid/iris//websocket"
 )
 
 // TodoController is our TODO app's web controller.
@@ -483,11 +483,11 @@ import (
     "vuejs-todo-mvc/todo"
     "vuejs-todo-mvc/web/controllers"
 
-    "github.com/kataras/iris"
-    "github.com/kataras/iris/sessions"
-    "github.com/kataras/iris/websocket"
+    "github.com/radiantrfid/iris/"
+    "github.com/radiantrfid/iris//sessions"
+    "github.com/radiantrfid/iris//websocket"
 
-    "github.com/kataras/iris/mvc"
+    "github.com/radiantrfid/iris//mvc"
 )
 
 func main() {
@@ -549,13 +549,13 @@ Open one or more browser tabs at: http://localhost:8080 and have fun!
 
 ### Download the Source Code
 
-The whole project, all the files you saw in this article are located at: https://github.com/kataras/iris/tree/master/_examples/tutorial/vuejs-todo-mvc
+The whole project, all the files you saw in this article are located at: https://github.com/radiantrfid/iris//tree/master/_examples/tutorial/vuejs-todo-mvc
 
 ## References
 
 https://vuejs.org/v2/examples/todomvc.html (using browser's local storage)
 
-https://github.com/kataras/iris/tree/master/_examples/mvc (mvc examples and features overview repository)
+https://github.com/radiantrfid/iris//tree/master/_examples/mvc (mvc examples and features overview repository)
 
 ## Thank you, once again
 

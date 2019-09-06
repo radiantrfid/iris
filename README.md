@@ -1,14 +1,14 @@
 # ⚡️ A newer release is published
 
-Click [here](https://github.com/kataras/iris/blob/master/HISTORY.md) to read more about the newest release.
+Click [here](https://github.com/radiantrfid/iris//blob/master/HISTORY.md) to read more about the newest release.
 
-> And, for the craziest of us, click [here](https://github.com/kataras/iris/compare/v10.7.0...v11) 🔥 to find out the commits and the code changes since current v10 
+> And, for the craziest of us, click [here](https://github.com/radiantrfid/iris//compare/v10.7.0...v11) 🔥 to find out the commits and the code changes since current v10 
 
 # Iris Web Framework <a href="README_ZH.md"> <img width="20px" src="https://iris-go.com/images/flag-china.svg?v=10" /></a> <a href="README_RU.md"><img width="20px" src="https://iris-go.com/images/flag-russia.svg?v=10" /></a> <a href="README_ID.md"> <img width="20px" src="https://iris-go.com/images/flag-indonesia.svg?v=10" /></a> <a href="README_GR.md"><img width="20px" src="https://iris-go.com/images/flag-greece.svg?v=10" /></a> <a href="README_PT_BR.md"><img width="20px" src="https://iris-go.com/images/flag-pt-br.svg?v=10" /></a> <a href="README_JPN.md"><img width="20px" src="https://iris-go.com/images/flag-japan.svg?v=10" /></a>
 
 <a href="https://iris-go.com"> <img align="right" width="169px" src="https://iris-go.com/images/icon.svg?v=a" title="logo created by @merry.dii" /> </a>
 
-[![build status](https://img.shields.io/travis/kataras/iris/master.svg?style=flat-square)](https://travis-ci.org/kataras/iris)<!-- [![release](https://img.shields.io/github/release/kataras/iris.svg?style=flat-square)](https://github.com/kataras/iris/releases)--> [![report card](https://img.shields.io/badge/report%20card-a%2B-ff3333.svg?style=flat-square)](http://goreportcard.com/report/kataras/iris) [![vscode-iris](https://img.shields.io/badge/ext%20-vscode-0c77e3.svg?style=flat-square)](https://marketplace.visualstudio.com/items?itemName=kataras2006.iris)<!--[![github closed issues](https://img.shields.io/github/issues-closed-raw/kataras/iris.svg?style=flat-square)](https://github.com/kataras/iris/issues?q=is%3Aissue+is%3Aclosed)--> [![chat](https://img.shields.io/badge/community-%20chat-00BCD4.svg?style=flat-square)](https://kataras.rocket.chat/channel/iris) [![view examples](https://img.shields.io/badge/learn%20by-examples-0077b3.svg?style=flat-square)](https://iris-go.com/v10/recipe) [![release](https://img.shields.io/badge/release%20-v10.7-0077b3.svg?style=flat-square)](https://github.com/kataras/iris/releases)
+[![build status](https://img.shields.io/travis/kataras/iris/master.svg?style=flat-square)](https://travis-ci.org/kataras/iris)<!-- [![release](https://img.shields.io/github/release/kataras/iris.svg?style=flat-square)](https://github.com/radiantrfid/iris//releases)--> [![report card](https://img.shields.io/badge/report%20card-a%2B-ff3333.svg?style=flat-square)](http://goreportcard.com/report/kataras/iris) [![vscode-iris](https://img.shields.io/badge/ext%20-vscode-0c77e3.svg?style=flat-square)](https://marketplace.visualstudio.com/items?itemName=kataras2006.iris)<!--[![github closed issues](https://img.shields.io/github/issues-closed-raw/kataras/iris.svg?style=flat-square)](https://github.com/radiantrfid/iris//issues?q=is%3Aissue+is%3Aclosed)--> [![chat](https://img.shields.io/badge/community-%20chat-00BCD4.svg?style=flat-square)](https://kataras.rocket.chat/channel/iris) [![view examples](https://img.shields.io/badge/learn%20by-examples-0077b3.svg?style=flat-square)](https://iris-go.com/v10/recipe) [![release](https://img.shields.io/badge/release%20-v10.7-0077b3.svg?style=flat-square)](https://github.com/radiantrfid/iris//releases)
 
 Iris is a fast, simple yet fully featured and very efficient web framework for Go.
 
@@ -16,7 +16,7 @@ Iris provides a beautifully expressive and easy to use foundation for your next 
 
 Iris offers a complete and decent solution and support for all gophers around the globe.
 
-Learn what [others say about Iris](#support) and [star](https://github.com/kataras/iris/stargazers) this github repository to stay [up to date](https://facebook.com/iris.framework).
+Learn what [others say about Iris](#support) and [star](https://github.com/radiantrfid/iris//stargazers) this github repository to stay [up to date](https://facebook.com/iris.framework).
 
 ## Installation
 
@@ -24,14 +24,14 @@ The only requirement is the [Go Programming Language](https://golang.org/dl/)
 
 ### GOPATH users
 
-1. Download https://github.com/kataras/iris/archive/v10.zip
+1. Download https://github.com/radiantrfid/iris//archive/v10.zip
 2. Unzip to your $GOPATH/src/github.com/kataras and
 3. rename the extracted "iris-10" folder to just "iris"
 4. If you wish, navigate to your "iris" folder and execute `$ go get ./...` to get the `kataras/golog` and the `httptest` dependencies that are not bundled within the Iris vendors because you may want to use them inside your own projects as well.
 
 ### Modules users
 
-Just add an import line at the end of your `go.mod` file as: `github.com/kataras/iris v10.7.0`.
+Just add an import line at the end of your `go.mod` file as: `github.com/radiantrfid/iris/ v10.7.0`.
 
 [![Iris vs .NET Core(C#) vs Node.js (Express)](https://iris-go.com/images/benchmark-new-gray.png)](_benchmarks/README_UNIX.md)
 
@@ -56,8 +56,8 @@ Therefore if you use [VS Code](https://code.visualstudio.com/) and you need thes
 
 ```go
 import (
-    "github.com/kataras/iris"
-    "github.com/kataras/iris/context" // <- HERE
+    "github.com/radiantrfid/iris/"
+    "github.com/radiantrfid/iris//context" // <- HERE
 )
 ```
 
@@ -79,7 +79,7 @@ $ cat example.go
 ```go
 package main
 
-import "github.com/kataras/iris"
+import "github.com/radiantrfid/iris/"
 
 func main() {
     app := iris.Default()
@@ -358,8 +358,8 @@ id: 1234; page: 1; name: manu; message: this_is_great
 package main
 
 import (
-    "github.com/kataras/iris"
-    "github.com/kataras/iris/context"
+    "github.com/radiantrfid/iris/"
+    "github.com/radiantrfid/iris//context"
 )
 
 func main() {
@@ -488,10 +488,10 @@ app := iris.Default()
 
 ```go
 import (
-    "github.com/kataras/iris"
+    "github.com/radiantrfid/iris/"
 
-    "github.com/kataras/iris/middleware/recover"
-    "github.com/kataras/iris/middleware/logger"
+    "github.com/radiantrfid/iris//middleware/recover"
+    "github.com/radiantrfid/iris//middleware/logger"
 )
 
 func main() {
@@ -556,7 +556,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/kataras/iris"
+	"github.com/radiantrfid/iris/"
 )
 
 // Get a filename based on the date, just for the sugar.
@@ -617,7 +617,7 @@ package main
 import (
     "fmt"
 
-    "github.com/kataras/iris"
+    "github.com/radiantrfid/iris/"
     "gopkg.in/go-playground/validator.v9"
 )
 
@@ -730,8 +730,8 @@ package main
 import (
     "fmt"
 
-    "github.com/kataras/iris"
-    "github.com/kataras/iris/websocket"
+    "github.com/radiantrfid/iris/"
+    "github.com/radiantrfid/iris//websocket"
 )
 
 func main() {
@@ -846,7 +846,7 @@ $ cat _examples/cookies/basic/main.go
 ```go
 package main
 
-import "github.com/kataras/iris"
+import "github.com/radiantrfid/iris/"
 
 func newApp() *iris.Application {
     app := iris.New()
@@ -911,7 +911,7 @@ import (
     "fmt"
     "testing"
 
-    "github.com/kataras/iris/httptest"
+    "github.com/radiantrfid/iris//httptest"
 )
 
 // go test -v -run=TestCookiesBasic$
@@ -947,7 +947,7 @@ func TestCookiesBasic(t *testing.T) {
 First of all, the most correct way to begin with a web framework is to learn the basics of the programming language and the standard `http` capabilities, if your web application is a very simple personal project without performance and maintainability requirements you may want to proceed just with the standard packages. After that follow the guidelines:
 
 - Navigate through **100+1** **[examples](_examples)** and some [iris starter kits](#iris-starter-kits) we crafted for you
-- Read the [godocs](https://godoc.org/github.com/kataras/iris) for any details
+- Read the [godocs](https://godoc.org/github.com/radiantrfid/iris/) for any details
 - Prepare a cup of coffee or tea, whatever pleases you the most, and read some [articles](#articles) we found for you
 
 ### Iris starter kits
@@ -974,7 +974,7 @@ First of all, the most correct way to begin with a web framework is to learn the
 7. [Quickstart for Iris with Nanobox](https://guides.nanobox.io/golang/iris/from-scratch)
 8. [A Hasura starter project with a ready to deploy Golang hello-world web app with IRIS](https://hasura.io/hub/project/hasura/hello-golang-iris)
 
-> Did you build something similar? Let us [know](https://github.com/kataras/iris/pulls)!
+> Did you build something similar? Let us [know](https://github.com/radiantrfid/iris//pulls)!
 
 ### Middleware
 
@@ -1010,7 +1010,7 @@ Iris, unlike others, is 100% compatible with the standards and that's why the ma
 ## Support
 
 - [HISTORY](HISTORY.md#sat-11-august-2018--v1070) file is your best friend, it contains information about the latest features and changes
-- Did you happen to find a bug? Post it at [github issues](https://github.com/kataras/iris/issues)
+- Did you happen to find a bug? Post it at [github issues](https://github.com/radiantrfid/iris//issues)
 - Do you have any questions or need to speak with someone experienced to solve a problem at real-time? Join us to the [community chat](https://chat.iris-go.com)
 - Complete our form-based user experience report by clicking [here](https://docs.google.com/forms/d/e/1FAIpQLSdCxZXPANg_xHWil4kVAdhmh7EBBHQZ_4_xSZVDL-oCC_z5pA/viewform?usp=sf_link)
 - Do you like the framework? Tweet something about it! The People have spoken:
@@ -1076,7 +1076,7 @@ Thank you to all our backers! 🙏 [Become a backer](https://iris-go.com/donate)
 
 For more information about contributing to the Iris project please check the [CONTRIBUTING.md](CONTRIBUTING.md) file.
 
-[List of all Contributors](https://github.com/kataras/iris/graphs/contributors)
+[List of all Contributors](https://github.com/radiantrfid/iris//graphs/contributors)
 
 ## License
 

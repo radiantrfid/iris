@@ -5,7 +5,7 @@ os:
 go:
   - "go1.9"
   - "go1.10"
-go_import_path: github.com/kataras/iris
+go_import_path: github.com/radiantrfid/iris/
 # we disable test caching via GOCACHE=off
 env:
   global:

@@ -6,7 +6,7 @@ Package i18n is for app Internationalization and Localization.
 
 This package is a fork of the https://github.com/Unknwon/i18n.
 
-It's heavly used inside the https://github.com/kataras/iris/tree/master/middleware/i18n middleware.
+It's heavly used inside the https://github.com/radiantrfid/iris//tree/master/middleware/i18n middleware.
 
 # Changes
 

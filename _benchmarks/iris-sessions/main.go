@@ -3,9 +3,9 @@ package main
 import (
 	"time"
 
-	"github.com/kataras/iris"
-	"github.com/kataras/iris/context"
-	"github.com/kataras/iris/sessions"
+	"github.com/radiantrfid/iris/"
+	"github.com/radiantrfid/iris//context"
+	"github.com/radiantrfid/iris//sessions"
 )
 
 var sess = sessions.New(sessions.Config{

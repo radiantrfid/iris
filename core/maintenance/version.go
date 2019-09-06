@@ -5,7 +5,7 @@ import (
 	"os"
 	"os/exec"
 
-	"github.com/kataras/iris/core/maintenance/version"
+	"github.com/radiantrfid/iris//core/maintenance/version"
 
 	"github.com/kataras/golog"
 	"github.com/kataras/survey"
@@ -49,13 +49,13 @@ func confirmUpdate(v version.Version) bool {
 
 func installVersion() {
 	golog.Infof("Downloading...\n")
-	repo := "github.com/kataras/iris/..."
+	repo := "github.com/radiantrfid/iris//..."
 	cmd := exec.Command("go", "get", "-u", "-v", repo)
 	cmd.Stdout = os.Stdout
 	cmd.Stderr = os.Stdout
 
 	if err := cmd.Run(); err != nil {
-		golog.Warnf("unexpected message while trying to go get,\nif you edited the original source code then you've to remove the whole $GOPATH/src/github.com/kataras folder and execute `go get -u github.com/kataras/iris/...` manually\n%v", err)
+		golog.Warnf("unexpected message while trying to go get,\nif you edited the original source code then you've to remove the whole $GOPATH/src/github.com/kataras folder and execute `go get -u github.com/radiantrfid/iris//...` manually\n%v", err)
 		return
 	}
 

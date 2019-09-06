@@ -1,10 +1,10 @@
 package main
 
 import (
-	"github.com/kataras/iris"
+	"github.com/radiantrfid/iris/"
 
-	"github.com/kataras/iris/middleware/logger"
-	"github.com/kataras/iris/middleware/recover"
+	"github.com/radiantrfid/iris//middleware/logger"
+	"github.com/radiantrfid/iris//middleware/recover"
 )
 
 func main() {

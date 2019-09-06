@@ -7,7 +7,7 @@ import (
 	"strconv"
 	"unicode"
 
-	"github.com/kataras/iris/core/router/macro/interpreter/ast"
+	"github.com/radiantrfid/iris//core/router/macro/interpreter/ast"
 )
 
 // EvaluatorFunc is the signature for both param types and param funcs.
@@ -245,7 +245,7 @@ type Map struct {
 // NewMap returns a new macro Map with default
 // type evaluators.
 //
-// Learn more at:  https://github.com/kataras/iris/tree/master/_examples/routing/dynamic-path
+// Learn more at:  https://github.com/radiantrfid/iris//tree/master/_examples/routing/dynamic-path
 func NewMap() *Map {
 	return &Map{
 		// it allows everything, so no need for a regexp here.

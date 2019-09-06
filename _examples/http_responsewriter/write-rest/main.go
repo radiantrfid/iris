@@ -3,8 +3,8 @@ package main
 import (
 	"encoding/xml"
 
-	"github.com/kataras/iris"
-	"github.com/kataras/iris/context"
+	"github.com/radiantrfid/iris/"
+	"github.com/radiantrfid/iris//context"
 )
 
 // User bind struct
@@ -27,7 +27,7 @@ func main() {
 
 	// Read
 	app.Post("/decode", func(ctx iris.Context) {
-		// Read https://github.com/kataras/iris/blob/master/_examples/http_request/read-json/main.go as well.
+		// Read https://github.com/radiantrfid/iris//blob/master/_examples/http_request/read-json/main.go as well.
 		var user User
 		ctx.ReadJSON(&user)
 

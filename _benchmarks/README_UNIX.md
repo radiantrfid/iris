@@ -9,7 +9,7 @@
 
 * OS: Linux **Ubuntu** [Version **17.10**] with latest kernel version **4.14.0-041400-generic x86_64 GNU/Linux**
 * HTTP Benchmark Tool: https://github.com/codesenberg/bombardier, latest version **1.1**
-* **Iris [Go]**: https://github.com/kataras/iris, latest version **8.5.7** built with [go1.9.2](https://golang.org)
+* **Iris [Go]**: https://github.com/radiantrfid/iris/, latest version **8.5.7** built with [go1.9.2](https://golang.org)
 * **.NET Core [C#]**: https://www.microsoft.com/net/core, latest version **2.0.2**
 * **Node.js (express + throng) [Javascript]**: https://nodejs.org/, latest version **9.2.0**, express: https://github.com/expressjs/express latest version **4.16.0** and [throng](https://www.npmjs.com/package/throng) latest version **4.0.0**
 

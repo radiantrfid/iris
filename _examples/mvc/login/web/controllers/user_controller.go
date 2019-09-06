@@ -3,12 +3,12 @@
 package controllers
 
 import (
-	"github.com/kataras/iris/_examples/mvc/login/datamodels"
-	"github.com/kataras/iris/_examples/mvc/login/services"
+	"github.com/radiantrfid/iris//_examples/mvc/login/datamodels"
+	"github.com/radiantrfid/iris//_examples/mvc/login/services"
 
-	"github.com/kataras/iris"
-	"github.com/kataras/iris/mvc"
-	"github.com/kataras/iris/sessions"
+	"github.com/radiantrfid/iris/"
+	"github.com/radiantrfid/iris//mvc"
+	"github.com/radiantrfid/iris//sessions"
 )
 
 // UserController is our /user controller.

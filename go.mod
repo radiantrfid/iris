@@ -1,4 +1,4 @@
-module github.com/kataras/iris
+module github.com/radiantrfid/iris/
 
 require (
 	github.com/BurntSushi/toml v0.3.0

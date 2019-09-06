@@ -16,7 +16,7 @@ import (
 	//   - TCP_FASTOPEN. See https://lwn.net/Articles/508865/ for details.
 	"github.com/valyala/tcplisten"
 
-	"github.com/kataras/iris"
+	"github.com/radiantrfid/iris/"
 )
 
 // $ go get github.com/valyala/tcplisten

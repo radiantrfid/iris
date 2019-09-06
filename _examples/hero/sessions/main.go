@@ -3,11 +3,11 @@ package main
 import (
 	"time"
 
-	"github.com/kataras/iris/_examples/hero/sessions/routes"
+	"github.com/radiantrfid/iris//_examples/hero/sessions/routes"
 
-	"github.com/kataras/iris"
-	"github.com/kataras/iris/hero" // <- IMPORTANT
-	"github.com/kataras/iris/sessions"
+	"github.com/radiantrfid/iris/"
+	"github.com/radiantrfid/iris//hero" // <- IMPORTANT
+	"github.com/radiantrfid/iris//sessions"
 )
 
 func main() {

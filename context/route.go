@@ -1,6 +1,6 @@
 package context
 
-import "github.com/kataras/iris/core/router/macro"
+import "github.com/radiantrfid/iris//core/router/macro"
 
 // RouteReadOnly allows decoupled access to the current route
 // inside the context.

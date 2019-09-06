@@ -9,8 +9,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/kataras/iris"
-	"github.com/kataras/iris/websocket"
+	"github.com/radiantrfid/iris/"
+	"github.com/radiantrfid/iris//websocket"
 
 	xwebsocket "golang.org/x/net/websocket"
 )
@@ -87,7 +87,7 @@ func SendMessage(serverID, to, method, message string) error {
 
 // SendtBytes broadcast a message to server
 func SendtBytes(serverID, to, method string, message []byte) error {
-	// look https://github.com/kataras/iris/blob/master/websocket/message.go , client.go and client.js
+	// look https://github.com/radiantrfid/iris//blob/master/websocket/message.go , client.go and client.js
 	// to understand the buffer line:
 	buffer := []byte(fmt.Sprintf("iris-websocket-message:%v;0;%v;%v;", method, serverID, to))
 	buffer = append(buffer, message...)

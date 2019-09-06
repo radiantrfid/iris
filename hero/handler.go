@@ -5,10 +5,10 @@ import (
 	"reflect"
 	"runtime"
 
-	"github.com/kataras/iris/hero/di"
+	"github.com/radiantrfid/iris//hero/di"
 
 	"github.com/kataras/golog"
-	"github.com/kataras/iris/context"
+	"github.com/radiantrfid/iris//context"
 )
 
 var contextTyp = reflect.TypeOf((*context.Context)(nil)).Elem()

@@ -1,9 +1,9 @@
 package main
 
 import (
-	"github.com/kataras/iris"
+	"github.com/radiantrfid/iris/"
 
-	"github.com/kataras/iris/typescript/editor"
+	"github.com/radiantrfid/iris//typescript/editor"
 )
 
 func main() {

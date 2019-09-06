@@ -4,12 +4,12 @@ package mvc_test
 import (
 	"testing"
 
-	"github.com/kataras/iris"
-	"github.com/kataras/iris/context"
-	"github.com/kataras/iris/core/router"
-	"github.com/kataras/iris/httptest"
+	"github.com/radiantrfid/iris/"
+	"github.com/radiantrfid/iris//context"
+	"github.com/radiantrfid/iris//core/router"
+	"github.com/radiantrfid/iris//httptest"
 
-	. "github.com/kataras/iris/mvc"
+	. "github.com/radiantrfid/iris//mvc"
 )
 
 type testController struct {

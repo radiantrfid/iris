@@ -4,9 +4,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/kataras/iris/cache/client/rule"
-	"github.com/kataras/iris/cache/entry"
-	"github.com/kataras/iris/context"
+	"github.com/radiantrfid/iris//cache/client/rule"
+	"github.com/radiantrfid/iris//cache/entry"
+	"github.com/radiantrfid/iris//context"
 )
 
 // Handler the local cache service handler contains
