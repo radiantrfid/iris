@@ -2,7 +2,7 @@
 
 package middleware
 
-import "github.com/radiantrfid/iris//middleware/basicauth"
+import "github.com/radiantrfid/iris/middleware/basicauth"
 
 // BasicAuth middleware sample.
 var BasicAuth = basicauth.New(basicauth.Config{

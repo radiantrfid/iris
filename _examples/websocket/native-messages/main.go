@@ -5,7 +5,7 @@ import (
 
 	"github.com/radiantrfid/iris/"
 
-	"github.com/radiantrfid/iris//websocket"
+	"github.com/radiantrfid/iris/websocket"
 )
 
 /* Native messages no need to import the iris-ws.js to the ./templates.client.html

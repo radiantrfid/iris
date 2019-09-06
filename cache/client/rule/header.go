@@ -3,7 +3,7 @@ package rule
 import (
 	"github.com/radiantrfid/iris/context"
 
-	"github.com/radiantrfid/iris//cache/ruleset"
+	"github.com/radiantrfid/iris/cache/ruleset"
 )
 
 // The HeaderPredicate should be alived on each of $package/rule BUT GOLANG DOESN'T SUPPORT type alias and I don't want to have so many copies around

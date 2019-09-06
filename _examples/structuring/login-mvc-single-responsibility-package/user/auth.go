@@ -6,8 +6,8 @@ import (
 	"strings"
 
 	"github.com/radiantrfid/iris/"
-	"github.com/radiantrfid/iris//mvc"
-	"github.com/radiantrfid/iris//sessions"
+	"github.com/radiantrfid/iris/mvc"
+	"github.com/radiantrfid/iris/sessions"
 )
 
 const sessionIDKey = "UserID"

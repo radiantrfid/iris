@@ -8,7 +8,7 @@ package main
 import (
 	"github.com/radiantrfid/iris/"
 
-	"github.com/radiantrfid/iris//sessions"
+	"github.com/radiantrfid/iris/sessions"
 
 	"github.com/gorilla/securecookie"
 )

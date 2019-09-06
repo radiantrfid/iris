@@ -6,7 +6,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/radiantrfid/iris//httptest"
+	"github.com/radiantrfid/iris/httptest"
 )
 
 type resource string

@@ -5,9 +5,9 @@ import (
 
 	"github.com/radiantrfid/iris/"
 
-	"github.com/radiantrfid/iris//sessions"
-	"github.com/radiantrfid/iris//sessions/sessiondb/redis"
-	"github.com/radiantrfid/iris//sessions/sessiondb/redis/service"
+	"github.com/radiantrfid/iris/sessions"
+	"github.com/radiantrfid/iris/sessions/sessiondb/redis"
+	"github.com/radiantrfid/iris/sessions/sessiondb/redis/service"
 )
 
 // tested with redis version 3.0.503.

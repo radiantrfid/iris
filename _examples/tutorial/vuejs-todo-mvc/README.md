@@ -416,9 +416,9 @@ import (
     "vuejs-todo-mvc/todo"
 
     "github.com/radiantrfid/iris/"
-    "github.com/radiantrfid/iris//mvc"
-    "github.com/radiantrfid/iris//sessions"
-    "github.com/radiantrfid/iris//websocket"
+    "github.com/radiantrfid/iris/mvc"
+    "github.com/radiantrfid/iris/sessions"
+    "github.com/radiantrfid/iris/websocket"
 )
 
 // TodoController is our TODO app's web controller.
@@ -484,10 +484,10 @@ import (
     "vuejs-todo-mvc/web/controllers"
 
     "github.com/radiantrfid/iris/"
-    "github.com/radiantrfid/iris//sessions"
-    "github.com/radiantrfid/iris//websocket"
+    "github.com/radiantrfid/iris/sessions"
+    "github.com/radiantrfid/iris/websocket"
 
-    "github.com/radiantrfid/iris//mvc"
+    "github.com/radiantrfid/iris/mvc"
 )
 
 func main() {
@@ -549,13 +549,13 @@ Open one or more browser tabs at: http://localhost:8080 and have fun!
 
 ### Download the Source Code
 
-The whole project, all the files you saw in this article are located at: https://github.com/radiantrfid/iris//tree/master/_examples/tutorial/vuejs-todo-mvc
+The whole project, all the files you saw in this article are located at: https://github.com/radiantrfid/iris/tree/master/_examples/tutorial/vuejs-todo-mvc
 
 ## References
 
 https://vuejs.org/v2/examples/todomvc.html (using browser's local storage)
 
-https://github.com/radiantrfid/iris//tree/master/_examples/mvc (mvc examples and features overview repository)
+https://github.com/radiantrfid/iris/tree/master/_examples/mvc (mvc examples and features overview repository)
 
 ## Thank you, once again
 

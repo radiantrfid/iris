@@ -25,7 +25,7 @@ func New(newFunc func() Context) *Pool {
 // The new Context should explicitly define the `Next()`
 // and `Do(context.Handlers)` functions.
 //
-// Example: https://github.com/radiantrfid/iris//blob/master/_examples/routing/custom-context/method-overriding/main.go
+// Example: https://github.com/radiantrfid/iris/blob/master/_examples/routing/custom-context/method-overriding/main.go
 func (c *Pool) Attach(newFunc func() Context) {
 	c.newFunc = newFunc
 }

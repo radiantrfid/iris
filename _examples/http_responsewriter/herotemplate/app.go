@@ -3,7 +3,7 @@ package main
 import (
 	"bytes"
 
-	"github.com/radiantrfid/iris//_examples/http_responsewriter/herotemplate/template"
+	"github.com/radiantrfid/iris/_examples/http_responsewriter/herotemplate/template"
 
 	"github.com/radiantrfid/iris/"
 )

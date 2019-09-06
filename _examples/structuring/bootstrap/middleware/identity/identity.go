@@ -5,7 +5,7 @@ import (
 
 	"github.com/radiantrfid/iris/"
 
-	"github.com/radiantrfid/iris//_examples/structuring/bootstrap/bootstrap"
+	"github.com/radiantrfid/iris/_examples/structuring/bootstrap/bootstrap"
 )
 
 // New returns a new handler which adds some headers and view data

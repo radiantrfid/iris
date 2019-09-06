@@ -1,1 +1,1 @@
-# Please navigate to the [_examples/mvc/login](https://github.com/radiantrfid/iris//tree/master/_examples/mvc/login)
+# Please navigate to the [_examples/mvc/login](https://github.com/radiantrfid/iris/tree/master/_examples/mvc/login)

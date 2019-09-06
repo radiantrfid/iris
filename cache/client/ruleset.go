@@ -1,9 +1,9 @@
 package client
 
 import (
-	"github.com/radiantrfid/iris//cache/cfg"
-	"github.com/radiantrfid/iris//cache/client/rule"
-	"github.com/radiantrfid/iris//cache/ruleset"
+	"github.com/radiantrfid/iris/cache/cfg"
+	"github.com/radiantrfid/iris/cache/client/rule"
+	"github.com/radiantrfid/iris/cache/ruleset"
 	"github.com/radiantrfid/iris/context"
 )
 

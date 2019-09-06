@@ -146,7 +146,7 @@ func main() {
 //
 // See `Configuration#IgnoreServerErrors []string` too.
 //
-// Example: https://github.com/radiantrfid/iris//tree/master/_examples/http-listening/listen-addr/omit-server-errors
+// Example: https://github.com/radiantrfid/iris/tree/master/_examples/http-listening/listen-addr/omit-server-errors
 func WithoutServerError(errors ...error) Configurator
 
 // WithoutStartupLog turns off the information send, once, to the terminal when the main server is open.
@@ -238,7 +238,7 @@ import (
     "time"
 
     "github.com/radiantrfid/iris/"
-    "github.com/radiantrfid/iris//core/host"
+    "github.com/radiantrfid/iris/core/host"
 )
 
 func Configurator(app *iris.Application) {

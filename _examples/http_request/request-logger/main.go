@@ -2,7 +2,7 @@ package main
 
 import (
 	"github.com/radiantrfid/iris/"
-	"github.com/radiantrfid/iris//middleware/logger"
+	"github.com/radiantrfid/iris/middleware/logger"
 )
 
 func main() {

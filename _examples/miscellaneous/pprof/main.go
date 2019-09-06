@@ -3,7 +3,7 @@ package main
 import (
 	"github.com/radiantrfid/iris/"
 
-	"github.com/radiantrfid/iris//middleware/pprof"
+	"github.com/radiantrfid/iris/middleware/pprof"
 )
 
 func main() {

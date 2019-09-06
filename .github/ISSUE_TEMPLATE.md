@@ -1,5 +1,5 @@
 Examples for the Iris project can be found at
-<https://github.com/radiantrfid/iris//tree/master/_examples>.
+<https://github.com/radiantrfid/iris/tree/master/_examples>.
 
 Documentation for the Iris project can be found at
 <https://godoc.org/github.com/radiantrfid/iris/>.

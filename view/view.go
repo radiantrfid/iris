@@ -4,7 +4,7 @@ import (
 	"io"
 	"path/filepath"
 
-	"github.com/radiantrfid/iris//core/errors"
+	"github.com/radiantrfid/iris/core/errors"
 )
 
 // View is responsible to

@@ -4,7 +4,7 @@ import (
 	"sync"
 
 	"github.com/radiantrfid/iris/"
-	"github.com/radiantrfid/iris//sessions"
+	"github.com/radiantrfid/iris/sessions"
 )
 
 // Owner is our application structure, it contains the methods or fields we need,

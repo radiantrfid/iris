@@ -10,7 +10,7 @@ Example code:
 		 	"time"
 
 		 	"github.com/radiantrfid/iris/"
-		 	"github.com/radiantrfid/iris//cache"
+		 	"github.com/radiantrfid/iris/cache"
 		 )
 
 		 func main(){
@@ -30,7 +30,7 @@ package cache
 import (
 	"time"
 
-	"github.com/radiantrfid/iris//cache/client"
+	"github.com/radiantrfid/iris/cache/client"
 	"github.com/radiantrfid/iris/context"
 )
 
@@ -60,7 +60,7 @@ func Cache(expiration time.Duration) *client.Handler {
 //
 // it returns a context.Handler which can be used as a middleware, for more options use the `Cache`.
 //
-// Examples can be found at: https://github.com/radiantrfid/iris//tree/master/_examples/#caching
+// Examples can be found at: https://github.com/radiantrfid/iris/tree/master/_examples/#caching
 func Handler(expiration time.Duration) context.Handler {
 	h := Cache(expiration).ServeHTTP
 	return h

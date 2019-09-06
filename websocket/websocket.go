@@ -2,11 +2,11 @@
 
 Source code and other details for the project are available at GitHub:
 
-   https://github.com/radiantrfid/iris//tree/master/websocket
+   https://github.com/radiantrfid/iris/tree/master/websocket
 
 Installation
 
-    $ go get -u github.com/radiantrfid/iris//websocket
+    $ go get -u github.com/radiantrfid/iris/websocket
 
 
 Example code:
@@ -20,7 +20,7 @@ Example code:
 		"github.com/radiantrfid/iris/"
 		"github.com/radiantrfid/iris/context"
 
-		"github.com/radiantrfid/iris//websocket"
+		"github.com/radiantrfid/iris/websocket"
 	)
 
 	func main() {

@@ -6,7 +6,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/radiantrfid/iris//core/router/macro/interpreter/ast"
+	"github.com/radiantrfid/iris/core/router/macro/interpreter/ast"
 )
 
 func TestParseParamError(t *testing.T) {

@@ -24,7 +24,7 @@ import (
 // StaticEmbeddedHandler returns a Handler which can serve embedded files
 // that are embedded using the go-bindata tool(assetsGziped = false) or the kataras/bindata tool (assetsGziped = true).
 //
-// Examples: https://github.com/radiantrfid/iris//tree/master/_examples/file-server
+// Examples: https://github.com/radiantrfid/iris/tree/master/_examples/file-server
 func StaticEmbeddedHandler(vdir string, assetFn func(name string) ([]byte, error), namesFn func() []string, assetsGziped bool) context.Handler {
 	// Depends on the command the user gave to the go-bindata
 	// the assset path (names) may be or may not be prepended with a slash.

@@ -4,8 +4,8 @@ import (
 	"sync/atomic"
 
 	"github.com/radiantrfid/iris/"
-	"github.com/radiantrfid/iris//mvc"
-	"github.com/radiantrfid/iris//websocket"
+	"github.com/radiantrfid/iris/mvc"
+	"github.com/radiantrfid/iris/websocket"
 )
 
 func main() {

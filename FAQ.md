@@ -16,7 +16,7 @@ Add a `badge` to your open-source projects powered by [Iris](https://iris-go.com
 
 <https://marketplace.visualstudio.com/items?itemName=kataras2006.iris>
 
-> Please feel free to list your own Iris extension(s) here by [PR](https://github.com/radiantrfid/iris//pulls)
+> Please feel free to list your own Iris extension(s) here by [PR](https://github.com/radiantrfid/iris/pulls)
 
 ## How to upgrade
 
@@ -28,13 +28,13 @@ go get -u github.com/radiantrfid/iris/
 
 More than 100 practical examples, tutorials and articles at:
 
-- https://github.com/radiantrfid/iris//tree/master/_examples
+- https://github.com/radiantrfid/iris/tree/master/_examples
 - https://github.com/iris-contrib/examples
 - https://iris-go.com/v10/recipe
 - https://docs.iris-go.com (in-progress)
 - https://godoc.org/github.com/radiantrfid/iris/
 
-> [Stay tuned](https://github.com/radiantrfid/iris//stargazers), community prepares even more tutorials.
+> [Stay tuned](https://github.com/radiantrfid/iris/stargazers), community prepares even more tutorials.
 
 Want to help and join to the greatest community? Describe your skills and push your own sections at: https://github.com/kataras/build-a-better-web-together/issues/new
 
@@ -61,9 +61,9 @@ Available type aliases;
 | Go 1.8 | Go 1.8 usage | Go 1.9 usage (optionally) |
 | -----------|--------|--------|
 | `import "github.com/radiantrfid/iris/context"` | `func(context.Context) {}`, `context.Handler`, `context.Map` |  `func(iris.Context) {}`, `iris.Handler`,  `iris.Map` |
-| `import "github.com/radiantrfid/iris//mvc"` | `type MyController struct { mvc.Controller }` , `mvc.SessionController` | `type MyController struct { iris.Controller }`, `iris.SessionController` |
-| `import "github.com/radiantrfid/iris//core/router"` | `app.PartyFunc("/users", func(p router.Party) {})` |  `app.PartyFunc("/users", func(p iris.Party) {})` |
-| `import "github.com/radiantrfid/iris//core/host"` | `app.ConfigureHost(func(s *host.Supervisor) {})` | `app.ConfigureHost(func(s *iris.Supervisor) {})` |
+| `import "github.com/radiantrfid/iris/mvc"` | `type MyController struct { mvc.Controller }` , `mvc.SessionController` | `type MyController struct { iris.Controller }`, `iris.SessionController` |
+| `import "github.com/radiantrfid/iris/core/router"` | `app.PartyFunc("/users", func(p router.Party) {})` |  `app.PartyFunc("/users", func(p iris.Party) {})` |
+| `import "github.com/radiantrfid/iris/core/host"` | `app.ConfigureHost(func(s *host.Supervisor) {})` | `app.ConfigureHost(func(s *iris.Supervisor) {})` |
 
 You can find all type aliases and their original package import statements at the [./context.go file](context.go).
 
@@ -85,7 +85,7 @@ Go to our facebook page, like it and receive notifications about new job offers,
 
 Yes, now more than ever.
 
-https://github.com/radiantrfid/iris//issues/711
+https://github.com/radiantrfid/iris/issues/711
 
 -------
 
@@ -103,7 +103,7 @@ agreement ended unofficially at 22 Novemember of 2017 (officially some weeks lat
 
 Yes, https://chat.iris-go.com
 
-https://github.com/radiantrfid/iris//issues/646
+https://github.com/radiantrfid/iris/issues/646
 
 ## How is the development of Iris supported?
 

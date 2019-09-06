@@ -8,7 +8,7 @@ import (
 	"time"
 
 	"github.com/radiantrfid/iris/context"
-	"github.com/radiantrfid/iris//core/netutil"
+	"github.com/radiantrfid/iris/core/netutil"
 )
 
 const (

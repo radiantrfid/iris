@@ -8,8 +8,8 @@ import (
 	"time"
 
 	"github.com/kataras/golog"
-	"github.com/radiantrfid/iris//core/errors"
-	"github.com/radiantrfid/iris//sessions"
+	"github.com/radiantrfid/iris/core/errors"
+	"github.com/radiantrfid/iris/sessions"
 
 	"github.com/dgraph-io/badger"
 )

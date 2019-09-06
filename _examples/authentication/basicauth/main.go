@@ -4,7 +4,7 @@ import (
 	"time"
 
 	"github.com/radiantrfid/iris/"
-	"github.com/radiantrfid/iris//middleware/basicauth"
+	"github.com/radiantrfid/iris/middleware/basicauth"
 )
 
 func newApp() *iris.Application {

@@ -4,9 +4,9 @@ import (
 	"fmt"
 
 	"github.com/radiantrfid/iris/"
-	"github.com/radiantrfid/iris//sessions"
+	"github.com/radiantrfid/iris/sessions"
 
-	"github.com/radiantrfid/iris//mvc"
+	"github.com/radiantrfid/iris/mvc"
 )
 
 func main() {

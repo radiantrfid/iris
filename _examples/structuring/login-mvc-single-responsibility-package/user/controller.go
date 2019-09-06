@@ -2,7 +2,7 @@ package user
 
 import (
 	"github.com/radiantrfid/iris/"
-	"github.com/radiantrfid/iris//mvc"
+	"github.com/radiantrfid/iris/mvc"
 )
 
 var (

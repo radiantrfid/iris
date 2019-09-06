@@ -3,7 +3,7 @@ package lexer
 import (
 	"testing"
 
-	"github.com/radiantrfid/iris//core/router/macro/interpreter/token"
+	"github.com/radiantrfid/iris/core/router/macro/interpreter/token"
 )
 
 func TestNextToken(t *testing.T) {

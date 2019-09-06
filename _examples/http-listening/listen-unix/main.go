@@ -2,7 +2,7 @@ package main
 
 import (
 	"github.com/radiantrfid/iris/"
-	"github.com/radiantrfid/iris//core/netutil"
+	"github.com/radiantrfid/iris/core/netutil"
 )
 
 func main() {

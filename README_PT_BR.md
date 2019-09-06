@@ -2,7 +2,7 @@
 
 <a href="https://iris-go.com"> <img align="right" width="169px" src="https://iris-go.com/images/icon.svg?v=a" title="logo created by @merry.dii" /> </a>
 
-[![build status](https://img.shields.io/travis/kataras/iris/master.svg?style=flat-square)](https://travis-ci.org/kataras/iris)<!-- [![release](https://img.shields.io/github/release/kataras/iris.svg?style=flat-square)](https://github.com/radiantrfid/iris//releases)--> [![report card](https://img.shields.io/badge/report%20card-a%2B-ff3333.svg?style=flat-square)](http://goreportcard.com/report/kataras/iris) [![vscode-iris](https://img.shields.io/badge/ext%20-vscode-0c77e3.svg?style=flat-square)](https://marketplace.visualstudio.com/items?itemName=kataras2006.iris)<!--[![github closed issues](https://img.shields.io/github/issues-closed-raw/kataras/iris.svg?style=flat-square)](https://github.com/radiantrfid/iris//issues?q=is%3Aissue+is%3Aclosed)--> [![chat](https://img.shields.io/badge/community-%20chat-00BCD4.svg?style=flat-square)](https://kataras.rocket.chat/channel/iris) [![view examples](https://img.shields.io/badge/learn%20by-examples-0077b3.svg?style=flat-square)](https://iris-go.com/v10/recipe) [![release](https://img.shields.io/badge/release%20-v10.7-0077b3.svg?style=flat-square)](https://github.com/radiantrfid/iris//releases)
+[![build status](https://img.shields.io/travis/kataras/iris/master.svg?style=flat-square)](https://travis-ci.org/kataras/iris)<!-- [![release](https://img.shields.io/github/release/kataras/iris.svg?style=flat-square)](https://github.com/radiantrfid/iris/releases)--> [![report card](https://img.shields.io/badge/report%20card-a%2B-ff3333.svg?style=flat-square)](http://goreportcard.com/report/kataras/iris) [![vscode-iris](https://img.shields.io/badge/ext%20-vscode-0c77e3.svg?style=flat-square)](https://marketplace.visualstudio.com/items?itemName=kataras2006.iris)<!--[![github closed issues](https://img.shields.io/github/issues-closed-raw/kataras/iris.svg?style=flat-square)](https://github.com/radiantrfid/iris/issues?q=is%3Aissue+is%3Aclosed)--> [![chat](https://img.shields.io/badge/community-%20chat-00BCD4.svg?style=flat-square)](https://kataras.rocket.chat/channel/iris) [![view examples](https://img.shields.io/badge/learn%20by-examples-0077b3.svg?style=flat-square)](https://iris-go.com/v10/recipe) [![release](https://img.shields.io/badge/release%20-v10.7-0077b3.svg?style=flat-square)](https://github.com/radiantrfid/iris/releases)
 
 Iris é um framework rápido, simples porém completo e muito eficiente para a linguagem Go.
 
@@ -10,7 +10,7 @@ Além disso, Iris proporciona uma base sólida que capricha na expressividade e 
 
 Por último, Iris é um framework equivalente ao expressjs no ecossistema da linguagem de programação Go.
 
-Veja o que [as pessoas estão dizendo sobre o Iris](#support) e [deixe uma estrela](https://github.com/radiantrfid/iris//stargazers) nesse repositório do github para se [manter atualizado](https://facebook.com/iris.framework).
+Veja o que [as pessoas estão dizendo sobre o Iris](#support) e [deixe uma estrela](https://github.com/radiantrfid/iris/stargazers) nesse repositório do github para se [manter atualizado](https://facebook.com/iris.framework).
 
 ## Apoiadores
 
@@ -107,7 +107,7 @@ _Atualizado em : [Terça, 21 de Novembro de 2017](_benchmarks/README_UNIX.md)_
 ## Apoie
 
 - [HISTORY](HISTORY.md#sat-11-august-2018--v1070) o arquivo HISTORY é o seu melhor amigo, ele contém informações sobre as últimas features e mudanças.
-- Econtrou algum bug ? Poste-o nas [issues](https://github.com/radiantrfid/iris//issues)
+- Econtrou algum bug ? Poste-o nas [issues](https://github.com/radiantrfid/iris/issues)
 - Possui alguma dúvida ou gostaria de falar com alguém experiente para resolver seu problema em tempo real ? Junte-se ao [chat da nossa comunidade](https://chat.iris-go.com).
 - Complete nosso formulário de experiência do usuário clicando [aqui](https://docs.google.com/forms/d/e/1FAIpQLSdCxZXPANg_xHWil4kVAdhmh7EBBHQZ_4_xSZVDL-oCC_z5pA/viewform?usp=sf_link)
 - Gostou do framework ? Deixe um Tweet sobre ele! Veja o que os outros já disseram:
@@ -155,7 +155,7 @@ _Atualizado em : [Terça, 21 de Novembro de 2017](_benchmarks/README_UNIX.md)_
 
 Para mais informações sobre como contribuir para o projeto Iris leia por favor o arquivo [CONTRIBUTING.md](CONTRIBUTING.md).
 
-[Lista de todos os Contribuintes](https://github.com/radiantrfid/iris//graphs/contributors)
+[Lista de todos os Contribuintes](https://github.com/radiantrfid/iris/graphs/contributors)
 
 ## Aprenda
 
@@ -194,7 +194,7 @@ padrão. Feito isso, você pode seguir as seguintes diretrizes:
 7. [Quickstart do Iris com Nanobox](https://guides.nanobox.io/golang/iris/from-scratch)
 8. [Um projeto Hasura para iniciantes pronto para o deply com um app Golang hello-world utilizando o IRIS](https://hasura.io/hub/project/hasura/hello-golang-iris)
 
-> Voce criou algo parecido ? [Informe-nos](https://github.com/radiantrfid/iris//pulls)!
+> Voce criou algo parecido ? [Informe-nos](https://github.com/radiantrfid/iris/pulls)!
 
 ### Middleware
 

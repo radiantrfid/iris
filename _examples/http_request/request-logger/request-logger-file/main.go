@@ -6,7 +6,7 @@ import (
 	"time"
 
 	"github.com/radiantrfid/iris/"
-	"github.com/radiantrfid/iris//middleware/logger"
+	"github.com/radiantrfid/iris/middleware/logger"
 )
 
 const deleteFileOnExit = true

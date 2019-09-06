@@ -7,7 +7,7 @@ import (
 
 	"github.com/radiantrfid/iris/"
 
-	"github.com/radiantrfid/iris//websocket"
+	"github.com/radiantrfid/iris/websocket"
 )
 
 type clientPage struct {

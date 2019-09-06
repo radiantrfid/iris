@@ -2,7 +2,7 @@ package routes
 
 import (
 	"github.com/radiantrfid/iris/"
-	"github.com/radiantrfid/iris//sessions"
+	"github.com/radiantrfid/iris/sessions"
 )
 
 // Index will increment a simple int version based on the visits that this user/session did.

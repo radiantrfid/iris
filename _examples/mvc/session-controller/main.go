@@ -7,8 +7,8 @@ import (
 	"time"
 
 	"github.com/radiantrfid/iris/"
-	"github.com/radiantrfid/iris//mvc"
-	"github.com/radiantrfid/iris//sessions"
+	"github.com/radiantrfid/iris/mvc"
+	"github.com/radiantrfid/iris/sessions"
 )
 
 // VisitController handles the root route.

@@ -3,7 +3,7 @@ package main
 import (
 	"testing"
 
-	"github.com/radiantrfid/iris//httptest"
+	"github.com/radiantrfid/iris/httptest"
 )
 
 func TestReadCustomPerType(t *testing.T) {

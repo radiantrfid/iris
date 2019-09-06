@@ -1,8 +1,8 @@
 package macro
 
 import (
-	"github.com/radiantrfid/iris//core/router/macro/interpreter/ast"
-	"github.com/radiantrfid/iris//core/router/macro/interpreter/parser"
+	"github.com/radiantrfid/iris/core/router/macro/interpreter/ast"
+	"github.com/radiantrfid/iris/core/router/macro/interpreter/parser"
 )
 
 // Template contains a route's path full parsed template.

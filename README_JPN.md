@@ -2,7 +2,7 @@
 
 <a href="https://iris-go.com"> <img align="right" width="169px" src="https://iris-go.com/images/icon.svg?v=a" title="logo created by @merry.dii" /> </a>
 
-[![build status](https://img.shields.io/travis/kataras/iris/master.svg?style=flat-square)](https://travis-ci.org/kataras/iris)<!-- [![release](https://img.shields.io/github/release/kataras/iris.svg?style=flat-square)](https://github.com/radiantrfid/iris//releases)--> [![report card](https://img.shields.io/badge/report%20card-a%2B-ff3333.svg?style=flat-square)](http://goreportcard.com/report/kataras/iris) [![vscode-iris](https://img.shields.io/badge/ext%20-vscode-0c77e3.svg?style=flat-square)](https://marketplace.visualstudio.com/items?itemName=kataras2006.iris)<!--[![github closed issues](https://img.shields.io/github/issues-closed-raw/kataras/iris.svg?style=flat-square)](https://github.com/radiantrfid/iris//issues?q=is%3Aissue+is%3Aclosed)--> [![chat](https://img.shields.io/badge/community-%20chat-00BCD4.svg?style=flat-square)](https://kataras.rocket.chat/channel/iris) [![view examples](https://img.shields.io/badge/learn%20by-examples-0077b3.svg?style=flat-square)](https://iris-go.com/v10/recipe) [![release](https://img.shields.io/badge/release%20-v10.7-0077b3.svg?style=flat-square)](https://github.com/radiantrfid/iris//releases)
+[![build status](https://img.shields.io/travis/kataras/iris/master.svg?style=flat-square)](https://travis-ci.org/kataras/iris)<!-- [![release](https://img.shields.io/github/release/kataras/iris.svg?style=flat-square)](https://github.com/radiantrfid/iris/releases)--> [![report card](https://img.shields.io/badge/report%20card-a%2B-ff3333.svg?style=flat-square)](http://goreportcard.com/report/kataras/iris) [![vscode-iris](https://img.shields.io/badge/ext%20-vscode-0c77e3.svg?style=flat-square)](https://marketplace.visualstudio.com/items?itemName=kataras2006.iris)<!--[![github closed issues](https://img.shields.io/github/issues-closed-raw/kataras/iris.svg?style=flat-square)](https://github.com/radiantrfid/iris/issues?q=is%3Aissue+is%3Aclosed)--> [![chat](https://img.shields.io/badge/community-%20chat-00BCD4.svg?style=flat-square)](https://kataras.rocket.chat/channel/iris) [![view examples](https://img.shields.io/badge/learn%20by-examples-0077b3.svg?style=flat-square)](https://iris-go.com/v10/recipe) [![release](https://img.shields.io/badge/release%20-v10.7-0077b3.svg?style=flat-square)](https://github.com/radiantrfid/iris/releases)
 
 Irisはシンプルで高速、それにも関わらず充実した機能を有する効率的なGo言語のウェブフレームワークです。
 
@@ -10,7 +10,7 @@ Irisは表現力豊かなウェブサイトやAPIの基礎構造をいとも簡�
 
 Go言語におけるExpressjsと言っても過言ではないでしょう。
 
-[皆様の声](#支援)をご覧ください。このレポジトリを[Star](https://github.com/radiantrfid/iris//stargazers)し、[最新情報](https://facebook.com/iris.framework)を受け取りましょう。
+[皆様の声](#支援)をご覧ください。このレポジトリを[Star](https://github.com/radiantrfid/iris/stargazers)し、[最新情報](https://facebook.com/iris.framework)を受け取りましょう。
 
 ## 支援者
 
@@ -107,7 +107,7 @@ _Updated at: [Tuesday, 21 November 2017](_benchmarks/README_UNIX.md)_
 ## 支援
 
 - [HISTORY](HISTORY.md#sat-11-august-2018--v1070)ファイルはあなたの友人です。このファイルには、機能に関する最新の情報や変更点が記載されています。
-- バグを発見しましたか？[github issues](https://github.com/radiantrfid/iris//issues)に投稿をお願い致します。
+- バグを発見しましたか？[github issues](https://github.com/radiantrfid/iris/issues)に投稿をお願い致します。
 - 質問がありますか？または問題を即時に解決するため、熟練者に相談する必要がありますか？[community chat](https://chat.iris-go.com)に参加しましょう。
 - [here](https://docs.google.com/forms/d/e/1FAIpQLSdCxZXPANg_xHWil4kVAdhmh7EBBHQZ_4_xSZVDL-oCC_z5pA/viewform?usp=sf_link)をクリックしてユーザーとしての体験を報告しましょう。
 - フレームワークを愛していますか?それならばツイートしましょう!他の人はこのようにツイートしています:
@@ -155,7 +155,7 @@ _Updated at: [Tuesday, 21 November 2017](_benchmarks/README_UNIX.md)_
 
 Irisプロジェクトに貢献して頂ける方は、[CONTRIBUTING.md](CONTRIBUTING.md) をお読みください.
 
-[全貢献者リスト](https://github.com/radiantrfid/iris//graphs/contributors)
+[全貢献者リスト](https://github.com/radiantrfid/iris/graphs/contributors)
 
 ## 学習する
 
@@ -189,7 +189,7 @@ Irisプロジェクトに貢献して頂ける方は、[CONTRIBUTING.md](CONTRIB
 7. [Quickstart for Iris with Nanobox](https://guides.nanobox.io/golang/iris/from-scratch)
 8. [A Hasura starter project with a ready to deploy Golang hello-world web app with IRIS](https://hasura.io/hub/project/hasura/hello-golang-iris)
 
-> 似たようなものを開発しましたか？ [私たちにも教えてください！](https://github.com/radiantrfid/iris//pulls)
+> 似たようなものを開発しましたか？ [私たちにも教えてください！](https://github.com/radiantrfid/iris/pulls)
 
 ### ミドルウェア
 

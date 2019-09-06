@@ -3,14 +3,14 @@
 package main
 
 import (
-	"github.com/radiantrfid/iris//_examples/hero/overview/datasource"
-	"github.com/radiantrfid/iris//_examples/hero/overview/repositories"
-	"github.com/radiantrfid/iris//_examples/hero/overview/services"
-	"github.com/radiantrfid/iris//_examples/hero/overview/web/middleware"
-	"github.com/radiantrfid/iris//_examples/hero/overview/web/routes"
+	"github.com/radiantrfid/iris/_examples/hero/overview/datasource"
+	"github.com/radiantrfid/iris/_examples/hero/overview/repositories"
+	"github.com/radiantrfid/iris/_examples/hero/overview/services"
+	"github.com/radiantrfid/iris/_examples/hero/overview/web/middleware"
+	"github.com/radiantrfid/iris/_examples/hero/overview/web/routes"
 
 	"github.com/radiantrfid/iris/"
-	"github.com/radiantrfid/iris//hero"
+	"github.com/radiantrfid/iris/hero"
 )
 
 func main() {

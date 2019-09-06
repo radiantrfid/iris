@@ -5,7 +5,7 @@ import (
 	"strings"
 
 	"github.com/radiantrfid/iris/context"
-	"github.com/radiantrfid/iris//core/errors"
+	"github.com/radiantrfid/iris/core/errors"
 )
 
 // Nodes a conversion type for []*node.

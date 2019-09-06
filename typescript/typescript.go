@@ -11,7 +11,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/radiantrfid/iris//typescript/npm"
+	"github.com/radiantrfid/iris/typescript/npm"
 )
 
 type (

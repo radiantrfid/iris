@@ -1,9 +1,9 @@
 package main
 
 import (
-	"github.com/radiantrfid/iris//_examples/structuring/bootstrap/bootstrap"
-	"github.com/radiantrfid/iris//_examples/structuring/bootstrap/middleware/identity"
-	"github.com/radiantrfid/iris//_examples/structuring/bootstrap/routes"
+	"github.com/radiantrfid/iris/_examples/structuring/bootstrap/bootstrap"
+	"github.com/radiantrfid/iris/_examples/structuring/bootstrap/middleware/identity"
+	"github.com/radiantrfid/iris/_examples/structuring/bootstrap/routes"
 )
 
 func newApp() *bootstrap.Bootstrapper {

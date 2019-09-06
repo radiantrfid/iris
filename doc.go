@@ -341,7 +341,7 @@ Example Code:
 Second, and probably easier way is to use the `host.Configurator`.
 
 Note that this method requires an extra import statement of
-"github.com/radiantrfid/iris//core/host" when using go < 1.9,
+"github.com/radiantrfid/iris/core/host" when using go < 1.9,
 if you're targeting on go1.9 then you can use the `iris#Supervisor`
 and omit the extra host import.
 
@@ -360,7 +360,7 @@ Example Code:
         "time"
 
         "github.com/radiantrfid/iris/"
-        "github.com/radiantrfid/iris//core/host"
+        "github.com/radiantrfid/iris/core/host"
     )
 
     func main() {
@@ -407,7 +407,7 @@ Example Code:
 
 Read more about listening and gracefully shutdown by navigating to:
 
-    https://github.com/radiantrfid/iris//tree/master/_examples/#http-listening
+    https://github.com/radiantrfid/iris/tree/master/_examples/#http-listening
 
 
 Routing
@@ -899,7 +899,7 @@ Static Files
     //
     // Returns the GET *Route.
     //
-    // Example: https://github.com/radiantrfid/iris//tree/master/_examples/file-server/embedding-files-into-app
+    // Example: https://github.com/radiantrfid/iris/tree/master/_examples/file-server/embedding-files-into-app
     StaticEmbedded(requestPath string, vdir string, assetFn func(name string) ([]byte, error), namesFn func() []string) (*Route, error)
 
     // Favicon serves static favicon
@@ -962,7 +962,7 @@ Example code:
         app.Run(iris.Addr(":8080"))
     }
 
-More examples can be found here: https://github.com/radiantrfid/iris//tree/master/_examples/beginner/file-server
+More examples can be found here: https://github.com/radiantrfid/iris/tree/master/_examples/beginner/file-server
 
 
 Middleware Ecosystem
@@ -1155,7 +1155,7 @@ Example code:
     }
 
 
-A real example can be found here: https://github.com/radiantrfid/iris//tree/master/_examples/view/embedding-templates-into-app.
+A real example can be found here: https://github.com/radiantrfid/iris/tree/master/_examples/view/embedding-templates-into-app.
 
 Enable auto-reloading of templates on each request. Useful while developers are in dev mode
 as they no neeed to restart their app on every template edit.
@@ -1169,7 +1169,7 @@ Example code:
 
 Note:
 
-In case you're wondering, the code behind the view engines derives from the "github.com/radiantrfid/iris//view" package,
+In case you're wondering, the code behind the view engines derives from the "github.com/radiantrfid/iris/view" package,
 access to the engines' variables can be granded by "github.com/radiantrfid/iris/" package too.
 
     iris.HTML(...) is a shortcut of view.HTML(...)
@@ -1178,7 +1178,7 @@ access to the engines' variables can be granded by "github.com/radiantrfid/iris/
     iris.Handlebars(...) >> >>      view.Handlebars(...)
     iris.Amber(...)      >> >>      view.Amber(...)
 
-Each one of these template engines has different options located here: https://github.com/radiantrfid/iris//tree/master/view .
+Each one of these template engines has different options located here: https://github.com/radiantrfid/iris/tree/master/view .
 
 
 Sessions
@@ -1203,7 +1203,7 @@ Example code:
     import (
         "github.com/radiantrfid/iris/"
 
-        "github.com/radiantrfid/iris//sessions"
+        "github.com/radiantrfid/iris/sessions"
     )
 
     var (
@@ -1254,7 +1254,7 @@ Example code:
 Running the example:
 
 
-    $ go get github.com/radiantrfid/iris//sessions
+    $ go get github.com/radiantrfid/iris/sessions
     $ go run main.go
 
     $ curl -s http://localhost:8080/secret
@@ -1278,9 +1278,9 @@ Example Code:
 
         "github.com/radiantrfid/iris/"
 
-        "github.com/radiantrfid/iris//sessions"
-        "github.com/radiantrfid/iris//sessions/sessiondb/redis"
-        "github.com/radiantrfid/iris//sessions/sessiondb/redis/service"
+        "github.com/radiantrfid/iris/sessions"
+        "github.com/radiantrfid/iris/sessions/sessiondb/redis"
+        "github.com/radiantrfid/iris/sessions/sessiondb/redis/service"
     )
 
     // tested with redis version 3.0.503.
@@ -1379,7 +1379,7 @@ Example Code:
 
 More examples:
 
-    https://github.com/radiantrfid/iris//tree/master/_examples/sessions
+    https://github.com/radiantrfid/iris/tree/master/_examples/sessions
 
 
 Websockets
@@ -1396,7 +1396,7 @@ Example Server Code:
 
         "github.com/radiantrfid/iris/"
 
-        "github.com/radiantrfid/iris//websocket"
+        "github.com/radiantrfid/iris/websocket"
     )
 
     func main() {
@@ -1486,7 +1486,7 @@ Example Client(javascript) Code:
 Running the example:
 
 
-    $ go get github.com/radiantrfid/iris//websocket
+    $ go get github.com/radiantrfid/iris/websocket
     $ go run main.go
     $ start http://localhost:8080
 
@@ -1502,10 +1502,10 @@ Example Code:
 
     import (
         "github.com/radiantrfid/iris/"
-        "github.com/radiantrfid/iris//mvc"
+        "github.com/radiantrfid/iris/mvc"
 
-        "github.com/radiantrfid/iris//middleware/logger"
-        "github.com/radiantrfid/iris//middleware/recover"
+        "github.com/radiantrfid/iris/middleware/logger"
+        "github.com/radiantrfid/iris/middleware/recover"
     )
 
     func main() {
@@ -1615,7 +1615,7 @@ via the `BeforeActivation` custom event callback, per-controller. Example:
 
     import (
         "github.com/radiantrfid/iris/"
-        "github.com/radiantrfid/iris//mvc"
+        "github.com/radiantrfid/iris/mvc"
     )
 
     func main() {
@@ -1753,7 +1753,7 @@ and it will be sent to the client as expected.
 * if `mvc.Result` then it executes its `Dispatch` function, so good design patters can be used to split the model's logic where needed.
 
 Examples with good patterns to follow but not intend to be used in production of course can be found at:
-https://github.com/radiantrfid/iris//tree/master/_examples/#mvc.
+https://github.com/radiantrfid/iris/tree/master/_examples/#mvc.
 
 
 Using Iris MVC for code reuse
@@ -1775,11 +1775,11 @@ If you enjoy what you just saw and want to learn more, please follow the below l
 
 Examples:
 
-    https://github.com/radiantrfid/iris//tree/master/_examples
+    https://github.com/radiantrfid/iris/tree/master/_examples
 
 Middleware:
 
-    https://github.com/radiantrfid/iris//tree/master/middleware
+    https://github.com/radiantrfid/iris/tree/master/middleware
     https://github.com/iris-contrib/middleware
 
 Home Page:

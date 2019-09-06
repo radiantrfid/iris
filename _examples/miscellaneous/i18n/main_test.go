@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/radiantrfid/iris//httptest"
+	"github.com/radiantrfid/iris/httptest"
 )
 
 func TestI18n(t *testing.T) {

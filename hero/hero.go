@@ -1,7 +1,7 @@
 package hero
 
 import (
-	"github.com/radiantrfid/iris//hero/di"
+	"github.com/radiantrfid/iris/hero/di"
 
 	"github.com/kataras/golog"
 	"github.com/radiantrfid/iris/context"

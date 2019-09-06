@@ -8,7 +8,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/radiantrfid/iris//core/netutil"
+	"github.com/radiantrfid/iris/core/netutil"
 )
 
 func singleJoiningSlash(a, b string) string {

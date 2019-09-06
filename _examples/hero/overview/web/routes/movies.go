@@ -5,8 +5,8 @@ package routes
 import (
 	"errors"
 
-	"github.com/radiantrfid/iris//_examples/hero/overview/datamodels"
-	"github.com/radiantrfid/iris//_examples/hero/overview/services"
+	"github.com/radiantrfid/iris/_examples/hero/overview/datamodels"
+	"github.com/radiantrfid/iris/_examples/hero/overview/services"
 
 	"github.com/radiantrfid/iris/"
 )

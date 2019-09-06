@@ -2,7 +2,7 @@
 
 <a href="https://iris-go.com"> <img align="right" width="169px" src="https://iris-go.com/images/icon.svg?v=a" title="logo created by @merry.dii" /> </a>
 
-[![build status](https://img.shields.io/travis/kataras/iris/master.svg?style=flat-square)](https://travis-ci.org/kataras/iris)<!-- [![release](https://img.shields.io/github/release/kataras/iris.svg?style=flat-square)](https://github.com/radiantrfid/iris//releases)--> [![report card](https://img.shields.io/badge/report%20card-a%2B-ff3333.svg?style=flat-square)](http://goreportcard.com/report/kataras/iris) [![vscode-iris](https://img.shields.io/badge/ext%20-vscode-0c77e3.svg?style=flat-square)](https://marketplace.visualstudio.com/items?itemName=kataras2006.iris)<!--[![github closed issues](https://img.shields.io/github/issues-closed-raw/kataras/iris.svg?style=flat-square)](https://github.com/radiantrfid/iris//issues?q=is%3Aissue+is%3Aclosed)--> [![chat](https://img.shields.io/badge/community-%20chat-00BCD4.svg?style=flat-square)](https://kataras.rocket.chat/channel/iris) [![view examples](https://img.shields.io/badge/learn%20by-examples-0077b3.svg?style=flat-square)](https://iris-go.com/v10/recipe) [![release](https://img.shields.io/badge/release%20-v10.7-0077b3.svg?style=flat-square)](https://github.com/radiantrfid/iris//releases)
+[![build status](https://img.shields.io/travis/kataras/iris/master.svg?style=flat-square)](https://travis-ci.org/kataras/iris)<!-- [![release](https://img.shields.io/github/release/kataras/iris.svg?style=flat-square)](https://github.com/radiantrfid/iris/releases)--> [![report card](https://img.shields.io/badge/report%20card-a%2B-ff3333.svg?style=flat-square)](http://goreportcard.com/report/kataras/iris) [![vscode-iris](https://img.shields.io/badge/ext%20-vscode-0c77e3.svg?style=flat-square)](https://marketplace.visualstudio.com/items?itemName=kataras2006.iris)<!--[![github closed issues](https://img.shields.io/github/issues-closed-raw/kataras/iris.svg?style=flat-square)](https://github.com/radiantrfid/iris/issues?q=is%3Aissue+is%3Aclosed)--> [![chat](https://img.shields.io/badge/community-%20chat-00BCD4.svg?style=flat-square)](https://kataras.rocket.chat/channel/iris) [![view examples](https://img.shields.io/badge/learn%20by-examples-0077b3.svg?style=flat-square)](https://iris-go.com/v10/recipe) [![release](https://img.shields.io/badge/release%20-v10.7-0077b3.svg?style=flat-square)](https://github.com/radiantrfid/iris/releases)
 
 Iris 是一款超快、简洁高效的 Go 语言 Web开发框架。
 
@@ -10,7 +10,7 @@ Iris 功能强大、使用简单，它将会是你下一个网站、API 服务�
 
 总之，是一款与 express.js 旗鼓相当的 Go 语言框架。
 
-看看[别人是如何评价 Iris](#support)，同时欢迎各位点亮 Iris [Star](https://github.com/radiantrfid/iris//stargazers)，或者关注 [Iris facebook 主页](https://facebook.com/iris.framework)。
+看看[别人是如何评价 Iris](#support)，同时欢迎各位点亮 Iris [Star](https://github.com/radiantrfid/iris/stargazers)，或者关注 [Iris facebook 主页](https://facebook.com/iris.framework)。
 
 ## 支持者
 
@@ -103,7 +103,7 @@ _更新于: [2017年11月21日星期二](_benchmarks/README_UNIX.md)_
 ## 支持
 
 - [更新记录](HISTORY_ZH.md#sat-11-august-2018--v1070) 是您最好的朋友，它包含有关最新功能和更改的信息
-- 你碰巧找到了一个错误？ 请提交 [github issues](https://github.com/radiantrfid/iris//issues)
+- 你碰巧找到了一个错误？ 请提交 [github issues](https://github.com/radiantrfid/iris/issues)
 - 您是否有任何疑问或需要与有经验的人士交谈以实时解决问题？ [加入我们的聊天](https://chat.iris-go.com)
 - [点击这里完成我们基于表单的用户体验报告](https://docs.google.com/forms/d/e/1FAIpQLSdCxZXPANg_xHWil4kVAdhmh7EBBHQZ_4_xSZVDL-oCC_z5pA/viewform?usp=sf_link) 
 - 你喜欢这个框架吗？ Twitter 上关于 Iris 的评价:
@@ -150,7 +150,7 @@ _更新于: [2017年11月21日星期二](_benchmarks/README_UNIX.md)_
 
 [如何贡献代码](CONTRIBUTING.md)
 
-[贡献者列表](https://github.com/radiantrfid/iris//graphs/contributors)
+[贡献者列表](https://github.com/radiantrfid/iris/graphs/contributors)
 
 ## 学习
 
@@ -184,7 +184,7 @@ _更新于: [2017年11月21日星期二](_benchmarks/README_UNIX.md)_
 7. [Quickstart for Iris with Nanobox](https://guides.nanobox.io/golang/iris/from-scratch)
 8. [A Hasura starter project with a ready to deploy Golang hello-world web app with IRIS](https://hasura.io/hub/project/hasura/hello-golang-iris)
 
-> 如果你有类似的使用经验吗 [请提交给我们](https://github.com/radiantrfid/iris//pulls)!
+> 如果你有类似的使用经验吗 [请提交给我们](https://github.com/radiantrfid/iris/pulls)!
 
 ### 中间件
 

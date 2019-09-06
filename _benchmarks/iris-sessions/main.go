@@ -5,7 +5,7 @@ import (
 
 	"github.com/radiantrfid/iris/"
 	"github.com/radiantrfid/iris/context"
-	"github.com/radiantrfid/iris//sessions"
+	"github.com/radiantrfid/iris/sessions"
 )
 
 var sess = sessions.New(sessions.Config{

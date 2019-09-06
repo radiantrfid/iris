@@ -3,7 +3,7 @@ package hero
 import (
 	"reflect"
 
-	"github.com/radiantrfid/iris//hero/di"
+	"github.com/radiantrfid/iris/hero/di"
 )
 
 func init() {

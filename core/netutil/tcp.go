@@ -7,7 +7,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/radiantrfid/iris//core/errors"
+	"github.com/radiantrfid/iris/core/errors"
 	"golang.org/x/crypto/acme/autocert"
 )
 

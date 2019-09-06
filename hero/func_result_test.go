@@ -6,9 +6,9 @@ import (
 
 	"github.com/radiantrfid/iris/"
 	"github.com/radiantrfid/iris/context"
-	"github.com/radiantrfid/iris//httptest"
+	"github.com/radiantrfid/iris/httptest"
 
-	. "github.com/radiantrfid/iris//hero"
+	. "github.com/radiantrfid/iris/hero"
 )
 
 func GetText() string {

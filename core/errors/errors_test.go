@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/radiantrfid/iris//core/errors"
+	"github.com/radiantrfid/iris/core/errors"
 )
 
 var errMessage = "User with mail: %s already exists"

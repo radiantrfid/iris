@@ -1,7 +1,7 @@
 package controllers
 
 import (
-	"github.com/radiantrfid/iris//_examples/http_responsewriter/quicktemplate/templates"
+	"github.com/radiantrfid/iris/_examples/http_responsewriter/quicktemplate/templates"
 
 	"github.com/radiantrfid/iris/"
 )

@@ -5,8 +5,8 @@ package controllers
 import (
 	"errors"
 
-	"github.com/radiantrfid/iris//_examples/mvc/overview/datamodels"
-	"github.com/radiantrfid/iris//_examples/mvc/overview/services"
+	"github.com/radiantrfid/iris/_examples/mvc/overview/datamodels"
+	"github.com/radiantrfid/iris/_examples/mvc/overview/services"
 
 	"github.com/radiantrfid/iris/"
 )

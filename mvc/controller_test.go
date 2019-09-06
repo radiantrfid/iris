@@ -6,10 +6,10 @@ import (
 
 	"github.com/radiantrfid/iris/"
 	"github.com/radiantrfid/iris/context"
-	"github.com/radiantrfid/iris//core/router"
-	"github.com/radiantrfid/iris//httptest"
+	"github.com/radiantrfid/iris/core/router"
+	"github.com/radiantrfid/iris/httptest"
 
-	. "github.com/radiantrfid/iris//mvc"
+	. "github.com/radiantrfid/iris/mvc"
 )
 
 type testController struct {

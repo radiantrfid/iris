@@ -4,7 +4,7 @@ import (
 	"net/http"
 
 	"github.com/radiantrfid/iris/context"
-	"github.com/radiantrfid/iris//core/errors"
+	"github.com/radiantrfid/iris/core/errors"
 )
 
 var errHandler = errors.New(`

@@ -5,7 +5,7 @@ import (
 	"time"
 
 	"github.com/radiantrfid/iris/"
-	"github.com/radiantrfid/iris//core/host"
+	"github.com/radiantrfid/iris/core/host"
 )
 
 func main() {

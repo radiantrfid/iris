@@ -8,7 +8,7 @@ import (
 	"github.com/hashicorp/go-version"
 
 	"github.com/kataras/golog"
-	"github.com/radiantrfid/iris//core/netutil"
+	"github.com/radiantrfid/iris/core/netutil"
 )
 
 const (
@@ -43,7 +43,7 @@ func fetch() (*version.Version, string) {
 	)
 	// Example output:
 	// Version(8.5.5)
-	// 8.5.5:https://github.com/radiantrfid/iris//blob/master/HISTORY.md#tu-02-november-2017--v855
+	// 8.5.5:https://github.com/radiantrfid/iris/blob/master/HISTORY.md#tu-02-november-2017--v855
 	if idx := strings.IndexByte(fetchedVersion, ':'); idx > 0 {
 		changelogURL = fetchedVersion[idx+1:]
 		fetchedVersion = fetchedVersion[0:idx]

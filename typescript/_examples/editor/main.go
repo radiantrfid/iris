@@ -3,7 +3,7 @@ package main
 import (
 	"github.com/radiantrfid/iris/"
 
-	"github.com/radiantrfid/iris//typescript/editor"
+	"github.com/radiantrfid/iris/typescript/editor"
 )
 
 func main() {

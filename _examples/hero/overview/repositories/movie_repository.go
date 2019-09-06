@@ -6,7 +6,7 @@ import (
 	"errors"
 	"sync"
 
-	"github.com/radiantrfid/iris//_examples/hero/overview/datamodels"
+	"github.com/radiantrfid/iris/_examples/hero/overview/datamodels"
 )
 
 // Query represents the visitor and action queries.

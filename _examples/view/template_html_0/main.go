@@ -43,7 +43,7 @@ func hi(ctx iris.Context) {
 /*
 Note:
 
-In case you're wondering, the code behind the view engines derives from the "github.com/radiantrfid/iris//view" package,
+In case you're wondering, the code behind the view engines derives from the "github.com/radiantrfid/iris/view" package,
 access to the engines' variables can be granded by "github.com/radiantrfid/iris/" package too.
 
     iris.HTML(...) is a shortcut of view.HTML(...)

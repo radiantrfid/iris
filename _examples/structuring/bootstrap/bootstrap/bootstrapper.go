@@ -6,10 +6,10 @@ import (
 	"github.com/gorilla/securecookie"
 
 	"github.com/radiantrfid/iris/"
-	"github.com/radiantrfid/iris//middleware/logger"
-	"github.com/radiantrfid/iris//middleware/recover"
-	"github.com/radiantrfid/iris//sessions"
-	"github.com/radiantrfid/iris//websocket"
+	"github.com/radiantrfid/iris/middleware/logger"
+	"github.com/radiantrfid/iris/middleware/recover"
+	"github.com/radiantrfid/iris/sessions"
+	"github.com/radiantrfid/iris/websocket"
 )
 
 type Configurator func(*Bootstrapper)

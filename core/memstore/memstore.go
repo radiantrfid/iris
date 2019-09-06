@@ -10,7 +10,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/radiantrfid/iris//core/errors"
+	"github.com/radiantrfid/iris/core/errors"
 )
 
 type (

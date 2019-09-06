@@ -148,7 +148,7 @@ func hi(ctx iris.Context) {
 }
 ```
 
-A real example can be found here: https://github.com/radiantrfid/iris//tree/master/_examples/view/embedding-templates-into-app.
+A real example can be found here: https://github.com/radiantrfid/iris/tree/master/_examples/view/embedding-templates-into-app.
 
 ## Reload
 
@@ -165,13 +165,13 @@ app.RegisterView(pugEngine)
 
 ## Examples
 
-- [Overview](https://github.com/radiantrfid/iris//blob/master/_examples/view/overview/main.go)
-- [Hi](https://github.com/radiantrfid/iris//blob/master/_examples/view/template_html_0/main.go)
-- [A simple Layout](https://github.com/radiantrfid/iris//blob/master/_examples/view/template_html_1/main.go)
-- [Layouts: `yield` and `render` tmpl funcs](https://github.com/radiantrfid/iris//blob/master/_examples/view/template_html_2/main.go)
-- [The `urlpath` tmpl func](https://github.com/radiantrfid/iris//blob/master/_examples/view/template_html_3/main.go)
-- [The `url` tmpl func](https://github.com/radiantrfid/iris//blob/master/_examples/view/template_html_4/main.go)
-- [Inject Data Between Handlers](https://github.com/radiantrfid/iris//blob/master/_examples/view/context-view-data/main.go)
-- [Embedding Templates Into App Executable File](https://github.com/radiantrfid/iris//blob/master/_examples/view/embedding-templates-into-app/main.go)
+- [Overview](https://github.com/radiantrfid/iris/blob/master/_examples/view/overview/main.go)
+- [Hi](https://github.com/radiantrfid/iris/blob/master/_examples/view/template_html_0/main.go)
+- [A simple Layout](https://github.com/radiantrfid/iris/blob/master/_examples/view/template_html_1/main.go)
+- [Layouts: `yield` and `render` tmpl funcs](https://github.com/radiantrfid/iris/blob/master/_examples/view/template_html_2/main.go)
+- [The `urlpath` tmpl func](https://github.com/radiantrfid/iris/blob/master/_examples/view/template_html_3/main.go)
+- [The `url` tmpl func](https://github.com/radiantrfid/iris/blob/master/_examples/view/template_html_4/main.go)
+- [Inject Data Between Handlers](https://github.com/radiantrfid/iris/blob/master/_examples/view/context-view-data/main.go)
+- [Embedding Templates Into App Executable File](https://github.com/radiantrfid/iris/blob/master/_examples/view/embedding-templates-into-app/main.go)
 
-You can serve [quicktemplate](https://github.com/valyala/quicktemplate) files too, simply by using the `context#ResponseWriter`, take a look at the [iris/_examples/http_responsewriter/quicktemplate](https://github.com/radiantrfid/iris//tree/master/_examples/http_responsewriter/quicktemplate) example.
+You can serve [quicktemplate](https://github.com/valyala/quicktemplate) files too, simply by using the `context#ResponseWriter`, take a look at the [iris/_examples/http_responsewriter/quicktemplate](https://github.com/radiantrfid/iris/tree/master/_examples/http_responsewriter/quicktemplate) example.

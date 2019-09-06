@@ -2,14 +2,14 @@ package main
 
 import (
 	"github.com/radiantrfid/iris/"
-	"github.com/radiantrfid/iris//mvc"
+	"github.com/radiantrfid/iris/mvc"
 
-	"github.com/radiantrfid/iris//middleware/logger"
-	"github.com/radiantrfid/iris//middleware/recover"
+	"github.com/radiantrfid/iris/middleware/logger"
+	"github.com/radiantrfid/iris/middleware/recover"
 )
 
 // This example is equivalent to the
-// https://github.com/radiantrfid/iris//blob/master/_examples/hello-world/main.go
+// https://github.com/radiantrfid/iris/blob/master/_examples/hello-world/main.go
 //
 // It seems that additional code you
 // have to write doesn't worth it

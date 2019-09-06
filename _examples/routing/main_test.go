@@ -5,7 +5,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/radiantrfid/iris//httptest"
+	"github.com/radiantrfid/iris/httptest"
 )
 
 func calculatePathAndResponse(method, subdomain, path string, paramKeyValue ...string) (string, string) {

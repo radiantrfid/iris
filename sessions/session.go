@@ -4,7 +4,7 @@ import (
 	"strconv"
 	"sync"
 
-	"github.com/radiantrfid/iris//core/errors"
+	"github.com/radiantrfid/iris/core/errors"
 )
 
 type (

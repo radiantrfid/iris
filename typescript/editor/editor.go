@@ -5,7 +5,7 @@ package editor
 Usage:
 
 
-	import "github.com/radiantrfid/iris//typescript/editor"
+	import "github.com/radiantrfid/iris/typescript/editor"
 	[...]
 
 	app := iris.New()
@@ -31,7 +31,7 @@ import (
 	"path/filepath"
 	"strconv"
 
-	"github.com/radiantrfid/iris//typescript/npm"
+	"github.com/radiantrfid/iris/typescript/npm"
 )
 
 type (

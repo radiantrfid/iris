@@ -6,16 +6,16 @@ import (
 	"testing"
 	"time"
 
-	"github.com/radiantrfid/iris//cache"
-	"github.com/radiantrfid/iris//cache/client"
-	"github.com/radiantrfid/iris//cache/client/rule"
+	"github.com/radiantrfid/iris/cache"
+	"github.com/radiantrfid/iris/cache/client"
+	"github.com/radiantrfid/iris/cache/client/rule"
 
 	"github.com/radiantrfid/iris/"
 	"github.com/radiantrfid/iris/context"
-	"github.com/radiantrfid/iris//core/errors"
+	"github.com/radiantrfid/iris/core/errors"
 
 	"github.com/iris-contrib/httpexpect"
-	"github.com/radiantrfid/iris//httptest"
+	"github.com/radiantrfid/iris/httptest"
 )
 
 var (

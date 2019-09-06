@@ -6,7 +6,7 @@ Example:
 
 ```go
 import (
-    "github.com/radiantrfid/iris//_examples/mvc/overview/datamodels"
+    "github.com/radiantrfid/iris/_examples/mvc/overview/datamodels"
 
     "github.com/radiantrfid/iris/context"
 )

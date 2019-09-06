@@ -5,7 +5,7 @@ import (
 	"strings"
 
 	"github.com/radiantrfid/iris/context"
-	"github.com/radiantrfid/iris//core/netutil"
+	"github.com/radiantrfid/iris/core/netutil"
 )
 
 type subdomainRedirectWrapper struct {
@@ -58,7 +58,7 @@ func pathIsWildcard(partyRelPath string) bool {
 // NewSubdomainRedirectWrapper may return nil if not allowed input arguments values were received
 // but in that case, the `WrapRouter` will, simply, ignore that wrapper.
 //
-// Example: https://github.com/radiantrfid/iris//tree/master/_examples/subdomains/redirect
+// Example: https://github.com/radiantrfid/iris/tree/master/_examples/subdomains/redirect
 func NewSubdomainRedirectWrapper(rootDomainGetter func() string, from, to string) WrapperFunc {
 	// we can return nil,
 	// because if wrapper is nil then it's not be used on the `router#WrapRouter`.

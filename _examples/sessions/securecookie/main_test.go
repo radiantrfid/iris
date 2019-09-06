@@ -4,7 +4,7 @@ import (
 	"testing"
 
 	"github.com/radiantrfid/iris/"
-	"github.com/radiantrfid/iris//httptest"
+	"github.com/radiantrfid/iris/httptest"
 )
 
 func TestSessionsEncodeDecode(t *testing.T) {

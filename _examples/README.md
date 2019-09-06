@@ -42,7 +42,7 @@ go get github.com/jmespath/go-jmespath
 And execute
 
 ```sh
-$ cd $GOPATH/src/github.com/radiantrfid/iris//_examples/overview
+$ cd $GOPATH/src/github.com/radiantrfid/iris/_examples/overview
 $ go run main.go
 ```
 
@@ -184,7 +184,7 @@ Serve custom controller's struct's methods as handlers with custom paths(even wi
 ```go
 import (
     "github.com/radiantrfid/iris/"
-    "github.com/radiantrfid/iris//mvc"
+    "github.com/radiantrfid/iris/mvc"
 )
 
 func main() {
@@ -241,7 +241,7 @@ useful to call middlewares or when many methods use the same collection of data.
 Optional `EndRequest(ctx)` function to perform any finalization after any method executed.
 
 Inheritance, recursively, see for example our `mvc.SessionController`, it has the `Session *sessions.Session` and `Manager *sessions.Sessions` as embedded fields
-which are filled by its `BeginRequest`, [here](https://github.com/radiantrfid/iris//blob/master/mvc/session_controller.go).
+which are filled by its `BeginRequest`, [here](https://github.com/radiantrfid/iris/blob/master/mvc/session_controller.go).
 This is just an example, you could use the `sessions.Session` which returned from the manager's `Start` as a dynamic dependency to the MVC Application, i.e
 `mvcApp.Register(sessions.New(sessions.Config{Cookie: "iris_session_id"}).Start)`.
 
@@ -289,7 +289,7 @@ func(c *ExampleController) Get() string |
                                 mvc.Result or (mvc.Result, error)
 ```
 
-where [mvc.Result](https://github.com/radiantrfid/iris//blob/master/mvc/go19.go#L10) is an [interface](https://github.com/radiantrfid/iris//blob/master/hero/func_result.go#L18) which contains only that function: `Dispatch(ctx iris.Context)`.
+where [mvc.Result](https://github.com/radiantrfid/iris/blob/master/mvc/go19.go#L10) is an [interface](https://github.com/radiantrfid/iris/blob/master/hero/func_result.go#L18) which contains only that function: `Dispatch(ctx iris.Context)`.
 
 ## Using Iris MVC for code reuse
 
@@ -423,7 +423,7 @@ You can serve [quicktemplate](https://github.com/valyala/quicktemplate) and [her
 
 #### More
 
-https://github.com/radiantrfid/iris//tree/master/middleware#third-party-handlers
+https://github.com/radiantrfid/iris/tree/master/middleware#third-party-handlers
 
 ### Automated API Documentation
 
@@ -437,7 +437,7 @@ The `httptest` package is your way for end-to-end HTTP testing, it uses the http
 
 ### Caching
 
-iris cache library lives on its own [package](https://github.com/radiantrfid/iris//tree/master/cache).
+iris cache library lives on its own [package](https://github.com/radiantrfid/iris/tree/master/cache).
 
 - [Simple](cache/simple/main.go)
 - [Client-Side (304)](cache/client-side/main.go) - part of the iris context core
@@ -451,7 +451,7 @@ iris cache library lives on its own [package](https://github.com/radiantrfid/iri
 
 ### Sessions
 
-iris session manager lives on its own [package](https://github.com/radiantrfid/iris//tree/master/sessions).
+iris session manager lives on its own [package](https://github.com/radiantrfid/iris/tree/master/sessions).
 
 - [Overview](sessions/overview/main.go)
 - [Standalone](sessions/standalone/main.go)
@@ -466,7 +466,7 @@ iris session manager lives on its own [package](https://github.com/radiantrfid/i
 
 ### Websockets
 
-iris websocket library lives on its own [package](https://github.com/radiantrfid/iris//tree/master/websocket).
+iris websocket library lives on its own [package](https://github.com/radiantrfid/iris/tree/master/websocket).
 
 The package is designed to work with raw websockets although its API is similar to the famous [socket.io](https://socket.io). I have read an article recently and I felt very contented about my decision to design a **fast** websocket-**only** package for Iris and not a backwards socket.io-like package. You can read that article by following this link: https://medium.com/@ivanderbyl/why-you-don-t-need-socket-io-6848f1c871cd.
 
@@ -481,7 +481,7 @@ The package is designed to work with raw websockets although its API is similar 
 
 ### Typescript Automation Tools
 
-typescript automation tools have their own repository: [https://github.com/radiantrfid/iris//tree/master/typescript](https://github.com/radiantrfid/iris//tree/master/typescript) **it contains examples**
+typescript automation tools have their own repository: [https://github.com/radiantrfid/iris/tree/master/typescript](https://github.com/radiantrfid/iris/tree/master/typescript) **it contains examples**
 
 > I'd like to tell you that you can use your favourite but I don't think you will find such a thing anywhere else.
 
@@ -489,4 +489,4 @@ typescript automation tools have their own repository: [https://github.com/radia
 
 Developers should read the [godocs](https://godoc.org/github.com/radiantrfid/iris/) and https://docs.iris-go.com for a better understanding.
 
-Psst, I almost forgot; do not forget to [star or watch](https://github.com/radiantrfid/iris//stargazers) the project in order to stay updated with the latest tech trends, it never takes more than a second!
+Psst, I almost forgot; do not forget to [star or watch](https://github.com/radiantrfid/iris/stargazers) the project in order to stay updated with the latest tech trends, it never takes more than a second!

@@ -7,7 +7,7 @@ import (
 	"reflect"
 	"strconv"
 
-	"github.com/radiantrfid/iris//typescript/npm"
+	"github.com/radiantrfid/iris/typescript/npm"
 )
 
 var (

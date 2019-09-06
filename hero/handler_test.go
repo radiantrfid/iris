@@ -7,9 +7,9 @@ import (
 	"testing"
 
 	"github.com/radiantrfid/iris/"
-	"github.com/radiantrfid/iris//httptest"
+	"github.com/radiantrfid/iris/httptest"
 
-	. "github.com/radiantrfid/iris//hero"
+	. "github.com/radiantrfid/iris/hero"
 )
 
 // dynamic func

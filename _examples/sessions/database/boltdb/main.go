@@ -6,8 +6,8 @@ import (
 
 	"github.com/radiantrfid/iris/"
 
-	"github.com/radiantrfid/iris//sessions"
-	"github.com/radiantrfid/iris//sessions/sessiondb/boltdb"
+	"github.com/radiantrfid/iris/sessions"
+	"github.com/radiantrfid/iris/sessions/sessiondb/boltdb"
 )
 
 func main() {

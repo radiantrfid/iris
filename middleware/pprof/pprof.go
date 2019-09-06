@@ -8,7 +8,7 @@ import (
 	"strings"
 
 	"github.com/radiantrfid/iris/context"
-	"github.com/radiantrfid/iris//core/handlerconv"
+	"github.com/radiantrfid/iris/core/handlerconv"
 )
 
 // New returns a new pprof (profile, cmdline, symbol, goroutine, heap, threadcreate, debug/block) Middleware.

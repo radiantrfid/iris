@@ -3,14 +3,14 @@
 package main
 
 import (
-	"github.com/radiantrfid/iris//_examples/mvc/overview/datasource"
-	"github.com/radiantrfid/iris//_examples/mvc/overview/repositories"
-	"github.com/radiantrfid/iris//_examples/mvc/overview/services"
-	"github.com/radiantrfid/iris//_examples/mvc/overview/web/controllers"
-	"github.com/radiantrfid/iris//_examples/mvc/overview/web/middleware"
+	"github.com/radiantrfid/iris/_examples/mvc/overview/datasource"
+	"github.com/radiantrfid/iris/_examples/mvc/overview/repositories"
+	"github.com/radiantrfid/iris/_examples/mvc/overview/services"
+	"github.com/radiantrfid/iris/_examples/mvc/overview/web/controllers"
+	"github.com/radiantrfid/iris/_examples/mvc/overview/web/middleware"
 
 	"github.com/radiantrfid/iris/"
-	"github.com/radiantrfid/iris//mvc"
+	"github.com/radiantrfid/iris/mvc"
 )
 
 func main() {

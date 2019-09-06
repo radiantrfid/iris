@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/radiantrfid/iris//httptest"
+	"github.com/radiantrfid/iris/httptest"
 )
 
 // TestURLShortener tests the simple tasks of our url shortener application.

@@ -7,8 +7,8 @@ import (
 	"strings"
 	"unicode"
 
-	"github.com/radiantrfid/iris//core/router"
-	"github.com/radiantrfid/iris//core/router/macro/interpreter/ast"
+	"github.com/radiantrfid/iris/core/router"
+	"github.com/radiantrfid/iris/core/router/macro/interpreter/ast"
 )
 
 const (

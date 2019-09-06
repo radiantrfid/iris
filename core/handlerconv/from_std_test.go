@@ -7,8 +7,8 @@ import (
 
 	"github.com/radiantrfid/iris/"
 	"github.com/radiantrfid/iris/context"
-	"github.com/radiantrfid/iris//core/handlerconv"
-	"github.com/radiantrfid/iris//httptest"
+	"github.com/radiantrfid/iris/core/handlerconv"
+	"github.com/radiantrfid/iris/httptest"
 )
 
 func TestFromStd(t *testing.T) {

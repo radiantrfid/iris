@@ -3,7 +3,7 @@ package main
 
 import (
 	"github.com/radiantrfid/iris/"
-	"github.com/radiantrfid/iris//core/router"
+	"github.com/radiantrfid/iris/core/router"
 )
 
 const (

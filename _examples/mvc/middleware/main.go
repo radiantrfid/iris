@@ -6,8 +6,8 @@ import (
 	"time"
 
 	"github.com/radiantrfid/iris/"
-	"github.com/radiantrfid/iris//cache"
-	"github.com/radiantrfid/iris//mvc"
+	"github.com/radiantrfid/iris/cache"
+	"github.com/radiantrfid/iris/mvc"
 )
 
 var cacheHandler = cache.Handler(10 * time.Second)

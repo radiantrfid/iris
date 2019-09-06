@@ -27,7 +27,7 @@ func main() {
 
 	// Read
 	app.Post("/decode", func(ctx iris.Context) {
-		// Read https://github.com/radiantrfid/iris//blob/master/_examples/http_request/read-json/main.go as well.
+		// Read https://github.com/radiantrfid/iris/blob/master/_examples/http_request/read-json/main.go as well.
 		var user User
 		ctx.ReadJSON(&user)
 
